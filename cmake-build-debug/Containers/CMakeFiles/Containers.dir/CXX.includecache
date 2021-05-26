@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Test-notebook/Desktop/opi-dz/Containers/list.cpp
+list.h
+C:/Users/Test-notebook/Desktop/opi-dz/Containers/list.h
+
+C:/Users/Test-notebook/Desktop/opi-dz/Containers/list.h
+iostream
+-
+
+C:/Users/Test-notebook/Desktop/opi-dz/Containers/mstring.cpp
+mstring.h
+C:/Users/Test-notebook/Desktop/opi-dz/Containers/mstring.h
+
+C:/Users/Test-notebook/Desktop/opi-dz/Containers/mstring.h
+iostream
+-
+string.h
+-
+

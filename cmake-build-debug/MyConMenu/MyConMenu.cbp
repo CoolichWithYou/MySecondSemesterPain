@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="MyConMenu"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\App\;CMake Files\Models\;CMake Files\MyConMenu\;CMake Files\Screens\;CMake Files\State\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyConMenu">
+				<Option output="C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/libMyConMenu.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/Models"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/Screens"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/."/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/State"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 MyConMenu"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MyConMenu/fast">
+				<Option output="C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/libMyConMenu.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/Models"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/Screens"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/."/>
+					<Add directory="C:/Users/Test-notebook/Desktop/opi-dz/State"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 MyConMenu/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/AbstractMenuItem/AbstractMenuItem.cpp">
+			<Option target="MyConMenu"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/AbstractMenuItem/AbstractMenuItem.h">
+			<Option target="MyConMenu"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenu/CMenu.cpp">
+			<Option target="MyConMenu"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenu/CMenu.h">
+			<Option target="MyConMenu"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenuItem/CMenuItem.cpp">
+			<Option target="MyConMenu"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenuItem/CMenuItem.h">
+			<Option target="MyConMenu"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/App/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\App\"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/Models/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Models\"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MyConMenu\"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/Screens/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Screens\"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/opi-dz/State/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\State\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

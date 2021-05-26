@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Test-notebook/Desktop/opi-dz/State/Store.cpp
+Store.h
+C:/Users/Test-notebook/Desktop/opi-dz/State/Store.h
+
+C:/Users/Test-notebook/Desktop/opi-dz/State/Store.h
+
