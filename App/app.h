@@ -15,14 +15,13 @@
 #include "../State/Store.h"
 #include "../State/State.h"
 #include "../Screens/Auth/Auth.h"
+#include "../Screens/InterfaceScreen.h"
 
 extern string login;
 
 extern std::vector<Subject> subjectList;
 extern std::vector<Human> humanList;
 
-int SubjectList();
-int createReport();
 int nothing();
 
 bool sortAlgorithm();

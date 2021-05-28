@@ -10,6 +10,7 @@ App/CMakeFiles/App.dir/app.cpp.obj: ../Models/Subject/Subject.h
 App/CMakeFiles/App.dir/app.cpp.obj: ../MyConMenu/CMenu/CMenu.h
 App/CMakeFiles/App.dir/app.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
 App/CMakeFiles/App.dir/app.cpp.obj: ../Screens/Auth/Auth.h
+App/CMakeFiles/App.dir/app.cpp.obj: ../Screens/InterfaceScreen.h
 App/CMakeFiles/App.dir/app.cpp.obj: ../State/State.h
 App/CMakeFiles/App.dir/app.cpp.obj: ../State/Store.h
 

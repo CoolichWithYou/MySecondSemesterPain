@@ -12,6 +12,7 @@ MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj
  ../MyConMenu/CMenu/CMenu.h
  ../MyConMenu/CMenuItem/CMenuItem.h
  ../Screens/Auth/Auth.h
+ ../Screens/InterfaceScreen.h
  ../State/State.h
  ../State/Store.h
  C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/CMenu/CMenu.cpp

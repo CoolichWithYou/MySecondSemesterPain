@@ -8,11 +8,22 @@ Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../MyConMenu/AbstractMenuItem/
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../MyConMenu/CMenu/CMenu.h
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../Screens/Auth/Auth.h
+Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../Screens/InterfaceScreen.h
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../State/State.h
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../State/Store.h
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../Screens/Auth/Auth.cpp
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../Screens/Auth/Auth.h
 
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../MyConMenu/AbstractMenuItem/AbstractMenuItem.h
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../App/app.h
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../Models/Human/Human.h
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../Models/Subject/Subject.h
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../MyConMenu/CMenu/CMenu.h
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../Screens/Auth/Auth.h
 Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../Screens/InterfaceScreen.cpp
 Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../Screens/InterfaceScreen.h
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../State/State.h
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../State/Store.h
 

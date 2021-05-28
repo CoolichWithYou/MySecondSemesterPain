@@ -31,6 +31,8 @@ iomanip
 ../State/State.h
 ../Screens/Auth/Auth.h
 ../Screens/Auth/Auth.h
+../Screens/InterfaceScreen.h
+../Screens/InterfaceScreen.h
 
 ../Models/Human/Human.h
 iostream
@@ -67,6 +69,10 @@ vector
 -
 string
 -
+
+../Screens/InterfaceScreen.h
+../App/app.h
+../App/app.h
 
 ../State/State.h
 vector

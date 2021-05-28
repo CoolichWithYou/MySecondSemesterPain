@@ -17,16 +17,30 @@ int nothing(){ //костыль
 }
 
 int sortSubjectByName() {
-        bool changeCatch = false;
         bool checkChanges = true;
         while(checkChanges){
             checkChanges = sortSubjectAlgorithm();
-            changeCatch = false;
         }
         return 1;
 }
 int editSubject(){
-    printSubjectList();
+    if(subjectList.empty()){
+        cout << " Список предметов пуст!\n\n";
+    }
+    else {
+        auto it = subjectList.begin();
+
+        int count{};
+
+        for (it; it < subjectList.end(); it++) {
+            cout << count << setw(10);
+            Subject::print(it, subjectList);
+            count++;
+        }
+        cout << "\n\n";
+    }
+
+    system("pause");
 
     if(!subjectList.empty()) {
 
@@ -55,10 +69,31 @@ int editSubject(){
         cout << "Информация о предмете успешно изменена!\n\n";
 
     }
+    else{
+        cout << "Список предметов пуст" << endl;
+    }
+    system("pause");
+    SubjectList();
     return 1;
 }
 int deleteSubject(){
-    printSubjectList();
+    if(subjectList.empty()){
+        cout << " Список предметов пуст!\n\n";
+    }
+    else {
+        auto it = subjectList.begin();
+
+        int count{};
+
+        for (it; it < subjectList.end(); it++) {
+            cout << count << setw(10);
+            Subject::print(it, subjectList);
+            count++;
+        }
+        cout << "\n\n";
+    }
+
+    system("pause");
 
     int deleteSubjectId{};
     cout << "Введите id предмета, который хотите удалить:\n->>";
@@ -81,6 +116,8 @@ int deleteSubject(){
 
     cout << "предмет успешно удалён!\n\n";
 
+    system("pause");
+    SubjectList();
     return 1;
 }
 int addNewSubject(){
@@ -103,6 +140,8 @@ int addNewSubject(){
 
     cout << "Предмет успешно добавлен!\n\n";
 
+    system("pause");
+    SubjectList();
     return 1;
 }
 int printSubjectList(){
@@ -121,38 +160,9 @@ int printSubjectList(){
         }
         cout << "\n\n";
     }
-    return 1;
-}
 
-int SubjectList() {
-    system("cls");
-    std::cout << "Открыть список предметов\n\n";
-    if(login == "admin") {
-
-        CMenuItem items[6]{
-                CMenuItem{"Отобразить список предметов", printSubjectList},
-                CMenuItem{"Сортировать по названию", sortSubjectByName},
-                CMenuItem{"Добавить новый элемент", addNewSubject},
-                CMenuItem{"Редактировать предмет по id", editSubject},
-                CMenuItem{"Удалить предмет по id", deleteSubject}, CMenuItem{"Вернуться назад", nothing}
-        };
-
-        CMenu menu("Subject menu", items, 6);
-
-        menu.runCommand();
-    }
-    else{
-        CMenuItem items[4]{
-                CMenuItem{"Отобразить список предметов", printSubjectList},
-                CMenuItem{"Сортировать по названию", sortSubjectByName},
-                CMenuItem{"Добавить новый элемент", addNewSubject},
-                CMenuItem{"Вернуться назад", nothing}
-        };
-
-        CMenu menu("Subject menu", items, 4);
-
-        menu.runCommand();
-    }
+    system("pause");
+    SubjectList();
     return 1;
 }
 
@@ -208,7 +218,8 @@ int addNewUser(){
         }
     }
     accessLevel.close();
-
+    system("pause");
+    userList();
     return 1;
 }
 int printAllUsers(){
@@ -227,10 +238,27 @@ int printAllUsers(){
         }
         cout << "\n\n";
     }
+    system("pause");
+    userList();
     return 1;
 }
 int editUser(){
-    printAllUsers();
+    if(humanList.empty()){
+        cout << "В базе данных нет пользователей!\n\n";
+    }
+    else {
+        vector<Human>::iterator it = humanList.begin();
+
+        int count{};
+
+        for (it; it < humanList.end(); it++) {
+            cout << count << "\t";
+            Human::printList(it, humanList);
+            count++;
+        }
+        cout << "\n\n";
+    }
+    system("pause");
 
     if(!humanList.empty()) {
 
@@ -275,10 +303,28 @@ int editUser(){
 
         cout << "Информация о человеке успешно изменена!\n\n";
     }
+
+    system("pause");
+    userList();
     return 1;
 }
 int deleteUser(){
-    printAllUsers();
+    if(humanList.empty()){
+        cout << "В базе данных нет пользователей!\n\n";
+    }
+    else {
+        vector<Human>::iterator it = humanList.begin();
+
+        int count{};
+
+        for (it; it < humanList.end(); it++) {
+            cout << count << "\t";
+            Human::printList(it, humanList);
+            count++;
+        }
+        cout << "\n\n";
+    }
+    system("pause");
 
     if(!humanList.empty()) {
 
@@ -315,6 +361,8 @@ int deleteUser(){
 
         cout << "пользователь успешно удалён!\n\n";
     }
+    system("pause");
+    userList();
     return 1;
 }
 int sortUserByName(){
@@ -330,23 +378,12 @@ int sortUserByName(){
             changeCatch = false;
         }
     }
+    system("pause");
+    userList();
     return 1;
 }
 int showTeachers(){
     if(humanList.empty()){
-        cout << "Список пуст\n\n";
-    }
-    else {
-        for (int i = 0; i < humanList.size(); i++) {
-            if (humanList[i].getPost() == 0) {
-                humanList[i].print();
-            }
-        }
-    }
-    return 1;
-}
-int showStudents() {
-    if (humanList.empty()) {
         cout << "Список пуст\n\n";
     }
     else {
@@ -356,20 +393,23 @@ int showStudents() {
             }
         }
     }
+    system("pause");
+    userList();
     return 1;
 }
-
-int userList() {
-    system("cls");
-    CMenuItem items[8]{
-            CMenuItem{"Отобразить всех пользователей", printAllUsers}, CMenuItem{"Добавить пользователя", addNewUser},
-            CMenuItem{"Редактировать пользователя", editUser}, CMenuItem{"Удалить преподавателя", deleteUser},
-            CMenuItem{"Сортировать по имени", sortUserByName}, CMenuItem{"Показать преподавателей", showTeachers},
-            CMenuItem{"Показать студентов", showStudents}, CMenuItem{"Вернуться назад", nothing}};
-
-    CMenu menu("Subject menu", items, 8);
-
-    menu.runCommand();
+int showStudents() {
+    if (humanList.empty()) {
+        cout << "Список пуст\n\n";
+    }
+    else {
+        for (int i = 0; i < humanList.size(); i++) {
+            if (humanList[i].getPost() == 0) {
+                humanList[i].print();
+            }
+        }
+    }
+    system("pause");
+    userList();
     return 1;
 }
 

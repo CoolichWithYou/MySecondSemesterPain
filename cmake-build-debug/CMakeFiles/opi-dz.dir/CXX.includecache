@@ -37,6 +37,8 @@ C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State/Store.h
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State/State.h
 ../Screens/Auth/Auth.h
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens/Auth/Auth.h
+../Screens/InterfaceScreen.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens/InterfaceScreen.h
 
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Human/Human.h
 iostream
@@ -71,6 +73,10 @@ vector
 -
 string
 -
+
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens/InterfaceScreen.h
+../App/app.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App/app.h
 
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State/State.h
 vector

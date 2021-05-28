@@ -11,6 +11,7 @@ MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../MyConMenu/AbstractMen
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../MyConMenu/CMenu/CMenu.h
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../Screens/Auth/Auth.h
+MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../Screens/InterfaceScreen.h
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../State/State.h
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../State/Store.h
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../MyConMenu/CMenu/CMenu.cpp
