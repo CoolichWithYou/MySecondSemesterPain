@@ -22,6 +22,14 @@ extern string login;
 extern std::vector<Subject> subjectList;
 extern std::vector<Human> humanList;
 
+template<typename T>
+int checkEmpty(vector<T> a){
+    if(a.empty()){
+        cout << "Массив пуст! Сначала добавьте элементы!\n";
+    }
+    return a.empty();
+}
+
 int nothing();
 
 bool sortAlgorithm();

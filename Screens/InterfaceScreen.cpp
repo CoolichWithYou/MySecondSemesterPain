@@ -16,7 +16,8 @@ int SubjectList() {
                 CMenuItem{"Сортировать по названию", sortSubjectByName},
                 CMenuItem{"Добавить новый элемент", addNewSubject},
                 CMenuItem{"Редактировать предмет по id", editSubject},
-                CMenuItem{"Удалить предмет по id", deleteSubject}, CMenuItem{"Вернуться назад", runMenu}
+                CMenuItem{"Удалить предмет по id", deleteSubject},
+                CMenuItem{"Вернуться назад", runMenu}
         };
 
         CMenu menu("Subject menu", items, 6);
@@ -42,9 +43,10 @@ int userList() {
     system("cls");
     CMenuItem items[8]{
             CMenuItem{"Отобразить всех пользователей", printAllUsers}, CMenuItem{"Добавить пользователя", addNewUser},
-            CMenuItem{"Редактировать пользователя", editUser}, CMenuItem{"Удалить преподавателя", deleteUser},
+            CMenuItem{"Редактировать пользователя", editUser}, CMenuItem{"Удалить пользователя", deleteUser},
             CMenuItem{"Сортировать по имени", sortUserByName}, CMenuItem{"Показать преподавателей", showTeachers},
-            CMenuItem{"Показать студентов", showStudents}, CMenuItem{"Вернуться назад", runMenu}};
+            CMenuItem{"Показать студентов", showStudents}, CMenuItem{"Вернуться назад", runMenu}
+    };
 
     CMenu menu("Subject menu", items, 8);
 

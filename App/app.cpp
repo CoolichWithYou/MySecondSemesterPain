@@ -12,6 +12,7 @@ string login = "-";
 std::vector<Subject> subjectList;
 std::vector<Human> humanList;
 
+
 int nothing(){ //костыль
     return 0;
 }
@@ -24,10 +25,7 @@ int sortSubjectByName() {
         return 1;
 }
 int editSubject(){
-    if(subjectList.empty()){
-        cout << " Список предметов пуст!\n\n";
-    }
-    else {
+    if(!checkEmpty(subjectList)){
         auto it = subjectList.begin();
 
         int count{};
@@ -42,7 +40,7 @@ int editSubject(){
 
     system("pause");
 
-    if(!subjectList.empty()) {
+    if(!checkEmpty(subjectList)){
 
         int changeSubjectId{};
         string newName, newSurname;
@@ -77,10 +75,7 @@ int editSubject(){
     return 1;
 }
 int deleteSubject(){
-    if(subjectList.empty()){
-        cout << " Список предметов пуст!\n\n";
-    }
-    else {
+    if(!checkEmpty(subjectList)){
         auto it = subjectList.begin();
 
         int count{};
@@ -145,10 +140,7 @@ int addNewSubject(){
     return 1;
 }
 int printSubjectList(){
-    if(subjectList.empty()){
-        cout << " Список предметов пуст!\n\n";
-    }
-    else {
+    if(!checkEmpty(subjectList)){
         auto it = subjectList.begin();
 
         int count{};
@@ -223,10 +215,7 @@ int addNewUser(){
     return 1;
 }
 int printAllUsers(){
-    if(humanList.empty()){
-        cout << "В базе данных нет пользователей!\n\n";
-    }
-    else {
+    if(!checkEmpty(subjectList)){
         vector<Human>::iterator it = humanList.begin();
 
         int count{};
@@ -243,10 +232,7 @@ int printAllUsers(){
     return 1;
 }
 int editUser(){
-    if(humanList.empty()){
-        cout << "В базе данных нет пользователей!\n\n";
-    }
-    else {
+    if(!checkEmpty(humanList)){
         vector<Human>::iterator it = humanList.begin();
 
         int count{};
@@ -260,7 +246,7 @@ int editUser(){
     }
     system("pause");
 
-    if(!humanList.empty()) {
+    if(!checkEmpty(humanList)){
 
         int changeHumanId{};
         string newName, newSurname;
@@ -309,10 +295,7 @@ int editUser(){
     return 1;
 }
 int deleteUser(){
-    if(humanList.empty()){
-        cout << "В базе данных нет пользователей!\n\n";
-    }
-    else {
+    if(!checkEmpty(humanList)){
         vector<Human>::iterator it = humanList.begin();
 
         int count{};
@@ -326,7 +309,7 @@ int deleteUser(){
     }
     system("pause");
 
-    if(!humanList.empty()) {
+    if(!checkEmpty(humanList)){
 
         int deleteUserId{};
 
@@ -367,10 +350,7 @@ int deleteUser(){
 }
 int sortUserByName(){
 
-    if(humanList.empty()){
-        cout << "Список пуст\n\n";
-    }
-    else {
+    if(!checkEmpty(humanList)){
         bool checkChanges = true;
         bool changeCatch = false;
         while (checkChanges) {
@@ -383,10 +363,7 @@ int sortUserByName(){
     return 1;
 }
 int showTeachers(){
-    if(humanList.empty()){
-        cout << "Список пуст\n\n";
-    }
-    else {
+    if(!checkEmpty(humanList)){
         for (int i = 0; i < humanList.size(); i++) {
             if (humanList[i].getPost() == 1) {
                 humanList[i].print();
@@ -398,10 +375,7 @@ int showTeachers(){
     return 1;
 }
 int showStudents() {
-    if (humanList.empty()) {
-        cout << "Список пуст\n\n";
-    }
-    else {
+    if(!checkEmpty(subjectList)){
         for (int i = 0; i < humanList.size(); i++) {
             if (humanList[i].getPost() == 0) {
                 humanList[i].print();
