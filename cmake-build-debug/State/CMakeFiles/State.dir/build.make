@@ -61,10 +61,10 @@ RM = C:\Users\Test-notebook\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\opi-dz
+CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include State/CMakeFiles/State.dir/depend.make
@@ -78,30 +78,30 @@ include State/CMakeFiles/State.dir/flags.make
 State/CMakeFiles/State.dir/State.cpp.obj: State/CMakeFiles/State.dir/flags.make
 State/CMakeFiles/State.dir/State.cpp.obj: State/CMakeFiles/State.dir/includes_CXX.rsp
 State/CMakeFiles/State.dir/State.cpp.obj: ../State/State.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object State/CMakeFiles/State.dir/State.cpp.obj"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\State.dir\State.cpp.obj -c C:\Users\Test-notebook\Desktop\opi-dz\State\State.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object State/CMakeFiles/State.dir/State.cpp.obj"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\State.dir\State.cpp.obj -c C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\State\State.cpp
 
 State/CMakeFiles/State.dir/State.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/State.dir/State.cpp.i"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\opi-dz\State\State.cpp > CMakeFiles\State.dir\State.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\State\State.cpp > CMakeFiles\State.dir\State.cpp.i
 
 State/CMakeFiles/State.dir/State.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/State.dir/State.cpp.s"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\opi-dz\State\State.cpp -o CMakeFiles\State.dir\State.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\State\State.cpp -o CMakeFiles\State.dir\State.cpp.s
 
 State/CMakeFiles/State.dir/Store.cpp.obj: State/CMakeFiles/State.dir/flags.make
 State/CMakeFiles/State.dir/Store.cpp.obj: State/CMakeFiles/State.dir/includes_CXX.rsp
 State/CMakeFiles/State.dir/Store.cpp.obj: ../State/Store.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object State/CMakeFiles/State.dir/Store.cpp.obj"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\State.dir\Store.cpp.obj -c C:\Users\Test-notebook\Desktop\opi-dz\State\Store.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object State/CMakeFiles/State.dir/Store.cpp.obj"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\State.dir\Store.cpp.obj -c C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\State\Store.cpp
 
 State/CMakeFiles/State.dir/Store.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/State.dir/Store.cpp.i"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\opi-dz\State\Store.cpp > CMakeFiles\State.dir\Store.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\State\Store.cpp > CMakeFiles\State.dir\Store.cpp.i
 
 State/CMakeFiles/State.dir/Store.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/State.dir/Store.cpp.s"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\opi-dz\State\Store.cpp -o CMakeFiles\State.dir\Store.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\State\Store.cpp -o CMakeFiles\State.dir\Store.cpp.s
 
 # Object files for target State
 State_OBJECTS = \
@@ -115,9 +115,9 @@ State/libState.a: State/CMakeFiles/State.dir/State.cpp.obj
 State/libState.a: State/CMakeFiles/State.dir/Store.cpp.obj
 State/libState.a: State/CMakeFiles/State.dir/build.make
 State/libState.a: State/CMakeFiles/State.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libState.a"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State && $(CMAKE_COMMAND) -P CMakeFiles\State.dir\cmake_clean_target.cmake
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\State.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libState.a"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State && $(CMAKE_COMMAND) -P CMakeFiles\State.dir\cmake_clean_target.cmake
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\State.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 State/CMakeFiles/State.dir/build: State/libState.a
@@ -125,10 +125,10 @@ State/CMakeFiles/State.dir/build: State/libState.a
 .PHONY : State/CMakeFiles/State.dir/build
 
 State/CMakeFiles/State.dir/clean:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State && $(CMAKE_COMMAND) -P CMakeFiles\State.dir\cmake_clean.cmake
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State && $(CMAKE_COMMAND) -P CMakeFiles\State.dir\cmake_clean.cmake
 .PHONY : State/CMakeFiles/State.dir/clean
 
 State/CMakeFiles/State.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Test-notebook\Desktop\opi-dz C:\Users\Test-notebook\Desktop\opi-dz\State C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State\CMakeFiles\State.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\State C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State\CMakeFiles\State.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : State/CMakeFiles/State.dir/depend
 

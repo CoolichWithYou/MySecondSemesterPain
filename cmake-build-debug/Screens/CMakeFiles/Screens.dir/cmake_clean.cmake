@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Screens.dir/Auth/Auth.cpp.obj"
+  "CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj"
   "libScreens.a"
   "libScreens.pdb"
 )

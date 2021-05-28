@@ -62,10 +62,10 @@ RM = C:\Users\Test-notebook\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\opi-dz
+CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -200,14 +200,14 @@ CMakeFiles/opi-dz.dir/all: State/CMakeFiles/State.dir/all
 CMakeFiles/opi-dz.dir/all: Screens/CMakeFiles/Screens.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\opi-dz.dir\build.make CMakeFiles/opi-dz.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\opi-dz.dir\build.make CMakeFiles/opi-dz.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target opi-dz"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target opi-dz"
 .PHONY : CMakeFiles/opi-dz.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/opi-dz.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 16
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 17
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/opi-dz.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/opi-dz.dir/rule
 
 # Convenience name for target.
@@ -227,14 +227,14 @@ CMakeFiles/opi-dz.dir/clean:
 Models/CMakeFiles/Models.dir/all:
 	$(MAKE) $(MAKESILENT) -f Models\CMakeFiles\Models.dir\build.make Models/CMakeFiles/Models.dir/depend
 	$(MAKE) $(MAKESILENT) -f Models\CMakeFiles\Models.dir\build.make Models/CMakeFiles/Models.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target Models"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=3,4,5 "Built target Models"
 .PHONY : Models/CMakeFiles/Models.dir/all
 
 # Build rule for subdir invocation for target.
 Models/CMakeFiles/Models.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Models/CMakeFiles/Models.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 0
 .PHONY : Models/CMakeFiles/Models.dir/rule
 
 # Convenience name for target.
@@ -254,14 +254,14 @@ Models/CMakeFiles/Models.dir/clean:
 MyConMenu/CMakeFiles/MyConMenu.dir/all:
 	$(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/depend
 	$(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=6,7,8,9 "Built target MyConMenu"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=6,7,8,9 "Built target MyConMenu"
 .PHONY : MyConMenu/CMakeFiles/MyConMenu.dir/all
 
 # Build rule for subdir invocation for target.
 MyConMenu/CMakeFiles/MyConMenu.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/CMakeFiles/MyConMenu.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 0
 .PHONY : MyConMenu/CMakeFiles/MyConMenu.dir/rule
 
 # Convenience name for target.
@@ -281,14 +281,14 @@ MyConMenu/CMakeFiles/MyConMenu.dir/clean:
 App/CMakeFiles/App.dir/all:
 	$(MAKE) $(MAKESILENT) -f App\CMakeFiles\App.dir\build.make App/CMakeFiles/App.dir/depend
 	$(MAKE) $(MAKESILENT) -f App\CMakeFiles\App.dir\build.make App/CMakeFiles/App.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target App"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target App"
 .PHONY : App/CMakeFiles/App.dir/all
 
 # Build rule for subdir invocation for target.
 App/CMakeFiles/App.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 App/CMakeFiles/App.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 0
 .PHONY : App/CMakeFiles/App.dir/rule
 
 # Convenience name for target.
@@ -308,14 +308,14 @@ App/CMakeFiles/App.dir/clean:
 State/CMakeFiles/State.dir/all: Models/CMakeFiles/Models.dir/all
 	$(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/depend
 	$(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=12,13,14 "Built target State"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=13,14,15 "Built target State"
 .PHONY : State/CMakeFiles/State.dir/all
 
 # Build rule for subdir invocation for target.
 State/CMakeFiles/State.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/CMakeFiles/State.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 0
 .PHONY : State/CMakeFiles/State.dir/rule
 
 # Convenience name for target.
@@ -335,14 +335,14 @@ State/CMakeFiles/State.dir/clean:
 Screens/CMakeFiles/Screens.dir/all:
 	$(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/depend
 	$(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=10,11 "Built target Screens"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=10,11,12 "Built target Screens"
 .PHONY : Screens/CMakeFiles/Screens.dir/all
 
 # Build rule for subdir invocation for target.
 Screens/CMakeFiles/Screens.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/CMakeFiles/Screens.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 0
 .PHONY : Screens/CMakeFiles/Screens.dir/rule
 
 # Convenience name for target.

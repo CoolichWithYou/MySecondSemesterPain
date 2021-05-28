@@ -9,8 +9,6 @@ using namespace std;
 
 string login = "-";
 
-//std::vector<Subject> subjectList;
-//std::vector<Human> humanList;
 std::vector<Subject> subjectList;
 std::vector<Human> humanList;
 
@@ -42,7 +40,20 @@ int editSubject(){
 
         subjectList[changeSubjectId] = newName;
 
+        fstream subjects("subjects.txt", std::ofstream::out | std::ofstream::trunc);
+
+        if (!subjects) {
+            cout << "файл не удалось открыть!\n";
+        }
+        else{
+            for(int i = 0; i < subjectList.size(); i++){
+                subjects << subjectList[i].getName() << "\n";
+            }
+        }
+        subjects.close();
+
         cout << "Информация о предмете успешно изменена!\n\n";
+
     }
     return 1;
 }
@@ -53,9 +64,23 @@ int deleteSubject(){
     cout << "Введите id предмета, который хотите удалить:\n->>";
     cin >> deleteSubjectId;
 
-    subjectList.erase(subjectList.begin() + deleteSubjectId + 1);
+    subjectList.erase(subjectList.begin() + deleteSubjectId);
+
+    fstream subjects("subjects.txt", std::ofstream::out | std::ofstream::trunc);
+
+
+    if (!subjects) {
+        cout << "файл не удалось открыть!\n";
+    }
+    else{
+        for(int i = 0; i < subjectList.size(); i++){
+            subjects << subjectList[i].getName() << "\n";
+        }
+    }
+    subjects.close();
 
     cout << "предмет успешно удалён!\n\n";
+
     return 1;
 }
 int addNewSubject(){
@@ -67,7 +92,17 @@ int addNewSubject(){
 
     subjectList.push_back(a);
 
+    fstream subjects("subjects.txt", ios_base::app);
+    subjects.seekg(0, ios_base::end);
+
+    if(subjects.is_open()){
+        subjects << "\n";
+        subjects << name;
+    }
+    subjects.close();
+
     cout << "Предмет успешно добавлен!\n\n";
+
     return 1;
 }
 int printSubjectList(){
@@ -75,7 +110,6 @@ int printSubjectList(){
         cout << " Список предметов пуст!\n\n";
     }
     else {
-
         auto it = subjectList.begin();
 
         int count{};
@@ -93,15 +127,32 @@ int printSubjectList(){
 int SubjectList() {
     system("cls");
     std::cout << "Открыть список предметов\n\n";
-    CMenuItem items[6]{
-            CMenuItem{"Отобразить список предметов", printSubjectList}, CMenuItem{"Сортировать по названию", sortSubjectByName},
-            CMenuItem{"Добавить новый элемент", addNewSubject}, CMenuItem{"Редактировать предмет по id", editSubject},
-            CMenuItem{"Удалить предмет по id", deleteSubject}, CMenuItem{"Вернуться назад", nothing}
-    };
+    if(login == "admin") {
 
-    CMenu menu("Subject menu", items, 6);
+        CMenuItem items[6]{
+                CMenuItem{"Отобразить список предметов", printSubjectList},
+                CMenuItem{"Сортировать по названию", sortSubjectByName},
+                CMenuItem{"Добавить новый элемент", addNewSubject},
+                CMenuItem{"Редактировать предмет по id", editSubject},
+                CMenuItem{"Удалить предмет по id", deleteSubject}, CMenuItem{"Вернуться назад", nothing}
+        };
 
-    menu.runCommand();
+        CMenu menu("Subject menu", items, 6);
+
+        menu.runCommand();
+    }
+    else{
+        CMenuItem items[4]{
+                CMenuItem{"Отобразить список предметов", printSubjectList},
+                CMenuItem{"Сортировать по названию", sortSubjectByName},
+                CMenuItem{"Добавить новый элемент", addNewSubject},
+                CMenuItem{"Вернуться назад", nothing}
+        };
+
+        CMenu menu("Subject menu", items, 4);
+
+        menu.runCommand();
+    }
     return 1;
 }
 
@@ -121,6 +172,43 @@ int addNewUser(){
     humanList.push_back(a);
 
     humanList[humanList.size()-1].setId(humanList.size()-1);
+
+    fstream firstNames("FirstName.txt", std::ofstream::out | std::ofstream::trunc);
+
+    if (!firstNames) {
+        cout << "файл не удалось открыть!\n";
+    }
+    else{
+        for(int i = 0; i < humanList.size(); i++){
+            firstNames << humanList[i].getName() << "\n";
+        }
+    }
+    firstNames.close();
+
+    fstream secondNames("SecondName.txt", std::ofstream::out | std::ofstream::trunc);
+
+    if (!secondNames) {
+        cout << "файл не удалось открыть!\n";
+    }
+    else{
+        for(int i = 0; i < humanList.size(); i++){
+            secondNames << humanList[i].getSurname() << "\n";
+        }
+    }
+    secondNames.close();
+
+    fstream accessLevel("AccessLvl.txt", std::ofstream::out | std::ofstream::trunc);
+
+    if (!accessLevel) {
+        cout << "файл не удалось открыть!\n";
+    }
+    else{
+        for(int i = 0; i < humanList.size(); i++){
+            accessLevel << humanList[i].getPost() << "\n";
+        }
+    }
+    accessLevel.close();
+
     return 1;
 }
 int printAllUsers(){
@@ -133,7 +221,7 @@ int printAllUsers(){
         int count{};
 
         for (it; it < humanList.end(); it++) {
-            cout << count << setw(10);
+            cout << count << "\t";
             Human::printList(it, humanList);
             count++;
         }
@@ -146,10 +234,10 @@ int editUser(){
 
     if(!humanList.empty()) {
 
-        int changeSubjectId{};
+        int changeHumanId{};
         string newName, newSurname;
         cout << "Введите id пользователя, которого хотите изменить:\n->>";
-        cin >> changeSubjectId;
+        cin >> changeHumanId;
 
         cout << "Введите новое имя:\n->>";
         cin >> newName;
@@ -157,9 +245,33 @@ int editUser(){
         cout << "Введите новую фамилию:\n->>";
         cin >> newSurname;
 
-        humanList[changeSubjectId].setName(newName);
+        humanList[changeHumanId].setName(newName);
 
-        humanList[changeSubjectId].setSurname(newSurname);
+        humanList[changeHumanId].setSurname(newSurname);
+
+        fstream firstNames("FirstName.txt", std::ofstream::out | std::ofstream::trunc);
+
+        if (!firstNames) {
+            cout << "файл не удалось открыть!\n";
+        }
+        else{
+            for(int i = 0; i < humanList.size(); i++){
+                firstNames << humanList[i].getName() << "\n";
+            }
+        }
+        firstNames.close();
+
+        fstream secondNames("SecondName.txt", std::ofstream::out | std::ofstream::trunc);
+
+        if (!secondNames) {
+            cout << "файл не удалось открыть!\n";
+        }
+        else{
+            for(int i = 0; i < humanList.size(); i++){
+                secondNames << humanList[i].getSurname() << "\n";
+            }
+        }
+        secondNames.close();
 
         cout << "Информация о человеке успешно изменена!\n\n";
     }
@@ -177,8 +289,29 @@ int deleteUser(){
 
         humanList.erase(humanList.begin() + deleteUserId + 1);
 
+        fstream firstNames("FirstName.txt", std::ofstream::out | std::ofstream::trunc);
 
+        if (!firstNames) {
+            cout << "файл не удалось открыть!\n";
+        }
+        else{
+            for(int i = 0; i < humanList.size(); i++){
+                firstNames << humanList[i].getName() << "\n";
+            }
+        }
+        firstNames.close();
 
+        fstream secondNames("SecondName.txt", std::ofstream::out | std::ofstream::trunc);
+
+        if (!secondNames) {
+            cout << "файл не удалось открыть!\n";
+        }
+        else{
+            for(int i = 0; i < humanList.size(); i++){
+                secondNames << humanList[i].getSurname() << "\n";
+            }
+        }
+        secondNames.close();
 
         cout << "пользователь успешно удалён!\n\n";
     }
@@ -226,14 +359,6 @@ int showStudents() {
     return 1;
 }
 
-int createReport() {
-    cout << "Этот пункт меню пока что недомтупен! Пожалуйста вернитесь назад, либо завершите работу с программой!\n\n";
-    CMenuItem items[1]{CMenuItem{"Вернуться назад", nothing}};
-    CMenu menu("otsch", items, 1);
-
-    menu.runCommand();
-    return 1;
-}
 int userList() {
     system("cls");
     CMenuItem items[8]{
@@ -278,12 +403,3 @@ bool sortSubjectAlgorithm() {
     }
     return changeCatch;
 }
-
-
-int runPrintAllUsers();
-int runEditUser();
-int runSortUserByName();
-int runShowStudents();
-int runAddNewUser();
-int runDeleteUser();
-int runShowTeachers();

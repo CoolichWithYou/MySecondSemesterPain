@@ -66,10 +66,10 @@ RM = C:\Users\Test-notebook\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\opi-dz
+CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\MyConMenu\\CMakeFiles\progress.marks
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\MyConMenu\\CMakeFiles\progress.marks
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/clean
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/preinstall
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/preinstall
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 MyConMenu/CMakeFiles/MyConMenu.dir/rule:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/CMakeFiles/MyConMenu.dir/rule
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 MyConMenu/CMakeFiles/MyConMenu.dir/rule
 .PHONY : MyConMenu/CMakeFiles/MyConMenu.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ MyConMenu: MyConMenu/CMakeFiles/MyConMenu.dir/rule
 
 # fast build rule for target.
 MyConMenu/fast:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/build
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/build
 .PHONY : MyConMenu/fast
 
 AbstractMenuItem/AbstractMenuItem.obj: AbstractMenuItem/AbstractMenuItem.cpp.obj
@@ -149,7 +149,7 @@ AbstractMenuItem/AbstractMenuItem.obj: AbstractMenuItem/AbstractMenuItem.cpp.obj
 
 # target to build an object file
 AbstractMenuItem/AbstractMenuItem.cpp.obj:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.obj
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.obj
 .PHONY : AbstractMenuItem/AbstractMenuItem.cpp.obj
 
 AbstractMenuItem/AbstractMenuItem.i: AbstractMenuItem/AbstractMenuItem.cpp.i
@@ -158,7 +158,7 @@ AbstractMenuItem/AbstractMenuItem.i: AbstractMenuItem/AbstractMenuItem.cpp.i
 
 # target to preprocess a source file
 AbstractMenuItem/AbstractMenuItem.cpp.i:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.i
 .PHONY : AbstractMenuItem/AbstractMenuItem.cpp.i
 
 AbstractMenuItem/AbstractMenuItem.s: AbstractMenuItem/AbstractMenuItem.cpp.s
@@ -167,7 +167,7 @@ AbstractMenuItem/AbstractMenuItem.s: AbstractMenuItem/AbstractMenuItem.cpp.s
 
 # target to generate assembly for a file
 AbstractMenuItem/AbstractMenuItem.cpp.s:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.s
 .PHONY : AbstractMenuItem/AbstractMenuItem.cpp.s
 
 CMenu/CMenu.obj: CMenu/CMenu.cpp.obj
@@ -176,7 +176,7 @@ CMenu/CMenu.obj: CMenu/CMenu.cpp.obj
 
 # target to build an object file
 CMenu/CMenu.cpp.obj:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj
 .PHONY : CMenu/CMenu.cpp.obj
 
 CMenu/CMenu.i: CMenu/CMenu.cpp.i
@@ -185,7 +185,7 @@ CMenu/CMenu.i: CMenu/CMenu.cpp.i
 
 # target to preprocess a source file
 CMenu/CMenu.cpp.i:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.i
 .PHONY : CMenu/CMenu.cpp.i
 
 CMenu/CMenu.s: CMenu/CMenu.cpp.s
@@ -194,7 +194,7 @@ CMenu/CMenu.s: CMenu/CMenu.cpp.s
 
 # target to generate assembly for a file
 CMenu/CMenu.cpp.s:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.s
 .PHONY : CMenu/CMenu.cpp.s
 
 CMenuItem/CMenuItem.obj: CMenuItem/CMenuItem.cpp.obj
@@ -203,7 +203,7 @@ CMenuItem/CMenuItem.obj: CMenuItem/CMenuItem.cpp.obj
 
 # target to build an object file
 CMenuItem/CMenuItem.cpp.obj:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenuItem/CMenuItem.cpp.obj
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenuItem/CMenuItem.cpp.obj
 .PHONY : CMenuItem/CMenuItem.cpp.obj
 
 CMenuItem/CMenuItem.i: CMenuItem/CMenuItem.cpp.i
@@ -212,7 +212,7 @@ CMenuItem/CMenuItem.i: CMenuItem/CMenuItem.cpp.i
 
 # target to preprocess a source file
 CMenuItem/CMenuItem.cpp.i:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenuItem/CMenuItem.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenuItem/CMenuItem.cpp.i
 .PHONY : CMenuItem/CMenuItem.cpp.i
 
 CMenuItem/CMenuItem.s: CMenuItem/CMenuItem.cpp.s
@@ -221,7 +221,7 @@ CMenuItem/CMenuItem.s: CMenuItem/CMenuItem.cpp.s
 
 # target to generate assembly for a file
 CMenuItem/CMenuItem.cpp.s:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenuItem/CMenuItem.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f MyConMenu\CMakeFiles\MyConMenu.dir\build.make MyConMenu/CMakeFiles/MyConMenu.dir/CMenuItem/CMenuItem.cpp.s
 .PHONY : CMenuItem/CMenuItem.cpp.s
 
 # Help Target
@@ -253,6 +253,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/AbstractMenuItem/AbstractMenuItem.cpp" "C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.obj"
-  "C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenu/CMenu.cpp" "C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj"
-  "C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenuItem/CMenuItem.cpp" "C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/CMakeFiles/MyConMenu.dir/CMenuItem/CMenuItem.cpp.obj"
+  "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/AbstractMenuItem/AbstractMenuItem.cpp" "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.obj"
+  "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/CMenu/CMenu.cpp" "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj"
+  "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/CMenuItem/CMenuItem.cpp" "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/MyConMenu/CMakeFiles/MyConMenu.dir/CMenuItem/CMenuItem.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

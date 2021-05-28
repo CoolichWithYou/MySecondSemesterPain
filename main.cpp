@@ -22,6 +22,7 @@ int main() {
 #endif
 
     connectDatabaseToVector();
+    fillVectorOfSubject();
     greeting();
     while(login == "-") {
         auth();
@@ -33,12 +34,21 @@ int main() {
 //    cout << endl;
 
     while(true)  {         //исправить
-        CMenuItem items[3]{CMenuItem{"Открыть список предметов", SubjectList},
-                           CMenuItem{"Создать отчёт", createReport},
-                           CMenuItem{"Открыть список пользователей", userList}};
-        CMenu menu("My console menu", items, 3);
+        if(login == "admin") {
+            CMenuItem items[3]{CMenuItem{"Открыть список предметов", SubjectList},
+                               CMenuItem{"Вернуться к авторизации", nothing},
+                               CMenuItem{"Открыть список пользователей", userList}};
+            CMenu menu("My console menu", items, 3);
 
-        menu.runCommand();
+            menu.runCommand();
+        }
+        else{
+            CMenuItem items[2]{CMenuItem{"Открыть список предметов", SubjectList},
+                               CMenuItem{"Вернуться к авторизации", nothing}};
+            CMenu menu("My console menu", items, 2);
+
+            menu.runCommand();
+        }
     }
     return 0;
 }

@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Test-notebook/Desktop/opi-dz/Models/Human/Human.cpp" "C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/Models/CMakeFiles/Models.dir/Human/Human.cpp.obj"
-  "C:/Users/Test-notebook/Desktop/opi-dz/Models/Subject/Subject.cpp" "C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/Models/CMakeFiles/Models.dir/Subject/Subject.cpp.obj"
+  "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Human/Human.cpp" "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Models/CMakeFiles/Models.dir/Human/Human.cpp.obj"
+  "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Subject/Subject.cpp" "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Models/CMakeFiles/Models.dir/Subject/Subject.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

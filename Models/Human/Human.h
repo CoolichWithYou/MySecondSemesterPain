@@ -59,18 +59,15 @@ public:
 
     void print() {
         if(m_post) {
-            cout << "\tУчитель \t";
+            cout << "Учитель:\t";
         }
         else{
-            cout << "\tСтудент \t";
+            cout << "Студент:\t";
         }
         cout << m_name
         << "\t"
         << m_surname
         << "\t"
-        << m_id
-        << "t"
-        << m_post
         << endl;
     }
 

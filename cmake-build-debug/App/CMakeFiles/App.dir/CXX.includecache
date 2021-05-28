@@ -12,11 +12,11 @@
 AbstractMenuItem/AbstractMenuItem.h
 ../MyConMenu/CMenuItem/AbstractMenuItem/AbstractMenuItem.h
 
-C:/Users/Test-notebook/Desktop/opi-dz/App/app.cpp
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App/app.cpp
 app.h
-C:/Users/Test-notebook/Desktop/opi-dz/App/app.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App/app.h
 
-C:/Users/Test-notebook/Desktop/opi-dz/App/app.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App/app.h
 iostream
 -
 algorithm
@@ -28,21 +28,21 @@ fstream
 iomanip
 -
 ../MyConMenu/CMenu/CMenu.h
-C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenu/CMenu.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/CMenu/CMenu.h
 ../MyConMenu/CMenuItem/CMenuItem.h
-C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenuItem/CMenuItem.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/CMenuItem/CMenuItem.h
 ../Models/Human/Human.h
-C:/Users/Test-notebook/Desktop/opi-dz/Models/Human/Human.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Human/Human.h
 ../Models/Subject/Subject.h
-C:/Users/Test-notebook/Desktop/opi-dz/Models/Subject/Subject.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Subject/Subject.h
 ../State/Store.h
-C:/Users/Test-notebook/Desktop/opi-dz/State/Store.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State/Store.h
 ../State/State.h
-C:/Users/Test-notebook/Desktop/opi-dz/State/State.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State/State.h
 ../Screens/Auth/Auth.h
-C:/Users/Test-notebook/Desktop/opi-dz/Screens/Auth/Auth.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens/Auth/Auth.h
 
-C:/Users/Test-notebook/Desktop/opi-dz/Models/Human/Human.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Human/Human.h
 iostream
 -
 string
@@ -50,7 +50,7 @@ string
 vector
 -
 
-C:/Users/Test-notebook/Desktop/opi-dz/Models/Subject/Subject.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Subject/Subject.h
 iostream
 -
 string
@@ -58,17 +58,17 @@ string
 vector
 -
 
-C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenu/CMenu.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/CMenu/CMenu.h
 CMenuItem/CMenuItem.h
-C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenu/CMenuItem/CMenuItem.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/CMenu/CMenuItem/CMenuItem.h
 iostream
 -
 
-C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenuItem/CMenuItem.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/CMenuItem/CMenuItem.h
 AbstractMenuItem/AbstractMenuItem.h
-C:/Users/Test-notebook/Desktop/opi-dz/MyConMenu/CMenuItem/AbstractMenuItem/AbstractMenuItem.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/CMenuItem/AbstractMenuItem/AbstractMenuItem.h
 
-C:/Users/Test-notebook/Desktop/opi-dz/Screens/Auth/Auth.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens/Auth/Auth.h
 iostream
 -
 vector
@@ -76,9 +76,9 @@ vector
 string
 -
 
-C:/Users/Test-notebook/Desktop/opi-dz/State/State.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State/State.h
 vector
 -
 
-C:/Users/Test-notebook/Desktop/opi-dz/State/Store.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State/Store.h
 

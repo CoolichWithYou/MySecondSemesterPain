@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Test-notebook/Desktop/opi-dz/App
+# Install script for directory: C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -61,10 +61,10 @@ RM = C:\Users\Test-notebook\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\opi-dz
+CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Models/CMakeFiles/Models.dir/depend.make
@@ -78,30 +78,30 @@ include Models/CMakeFiles/Models.dir/flags.make
 Models/CMakeFiles/Models.dir/Subject/Subject.cpp.obj: Models/CMakeFiles/Models.dir/flags.make
 Models/CMakeFiles/Models.dir/Subject/Subject.cpp.obj: Models/CMakeFiles/Models.dir/includes_CXX.rsp
 Models/CMakeFiles/Models.dir/Subject/Subject.cpp.obj: ../Models/Subject/Subject.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Models/CMakeFiles/Models.dir/Subject/Subject.cpp.obj"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Models.dir\Subject\Subject.cpp.obj -c C:\Users\Test-notebook\Desktop\opi-dz\Models\Subject\Subject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Models/CMakeFiles/Models.dir/Subject/Subject.cpp.obj"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Models.dir\Subject\Subject.cpp.obj -c C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Models\Subject\Subject.cpp
 
 Models/CMakeFiles/Models.dir/Subject/Subject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Models.dir/Subject/Subject.cpp.i"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\opi-dz\Models\Subject\Subject.cpp > CMakeFiles\Models.dir\Subject\Subject.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Models\Subject\Subject.cpp > CMakeFiles\Models.dir\Subject\Subject.cpp.i
 
 Models/CMakeFiles/Models.dir/Subject/Subject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Models.dir/Subject/Subject.cpp.s"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\opi-dz\Models\Subject\Subject.cpp -o CMakeFiles\Models.dir\Subject\Subject.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Models\Subject\Subject.cpp -o CMakeFiles\Models.dir\Subject\Subject.cpp.s
 
 Models/CMakeFiles/Models.dir/Human/Human.cpp.obj: Models/CMakeFiles/Models.dir/flags.make
 Models/CMakeFiles/Models.dir/Human/Human.cpp.obj: Models/CMakeFiles/Models.dir/includes_CXX.rsp
 Models/CMakeFiles/Models.dir/Human/Human.cpp.obj: ../Models/Human/Human.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Models/CMakeFiles/Models.dir/Human/Human.cpp.obj"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Models.dir\Human\Human.cpp.obj -c C:\Users\Test-notebook\Desktop\opi-dz\Models\Human\Human.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Models/CMakeFiles/Models.dir/Human/Human.cpp.obj"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Models.dir\Human\Human.cpp.obj -c C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Models\Human\Human.cpp
 
 Models/CMakeFiles/Models.dir/Human/Human.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Models.dir/Human/Human.cpp.i"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\opi-dz\Models\Human\Human.cpp > CMakeFiles\Models.dir\Human\Human.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Models\Human\Human.cpp > CMakeFiles\Models.dir\Human\Human.cpp.i
 
 Models/CMakeFiles/Models.dir/Human/Human.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Models.dir/Human/Human.cpp.s"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\opi-dz\Models\Human\Human.cpp -o CMakeFiles\Models.dir\Human\Human.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Models\Human\Human.cpp -o CMakeFiles\Models.dir\Human\Human.cpp.s
 
 # Object files for target Models
 Models_OBJECTS = \
@@ -115,9 +115,9 @@ Models/libModels.a: Models/CMakeFiles/Models.dir/Subject/Subject.cpp.obj
 Models/libModels.a: Models/CMakeFiles/Models.dir/Human/Human.cpp.obj
 Models/libModels.a: Models/CMakeFiles/Models.dir/build.make
 Models/libModels.a: Models/CMakeFiles/Models.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libModels.a"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models && $(CMAKE_COMMAND) -P CMakeFiles\Models.dir\cmake_clean_target.cmake
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Models.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libModels.a"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models && $(CMAKE_COMMAND) -P CMakeFiles\Models.dir\cmake_clean_target.cmake
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Models.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Models/CMakeFiles/Models.dir/build: Models/libModels.a
@@ -125,10 +125,10 @@ Models/CMakeFiles/Models.dir/build: Models/libModels.a
 .PHONY : Models/CMakeFiles/Models.dir/build
 
 Models/CMakeFiles/Models.dir/clean:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models && $(CMAKE_COMMAND) -P CMakeFiles\Models.dir\cmake_clean.cmake
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models && $(CMAKE_COMMAND) -P CMakeFiles\Models.dir\cmake_clean.cmake
 .PHONY : Models/CMakeFiles/Models.dir/clean
 
 Models/CMakeFiles/Models.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Test-notebook\Desktop\opi-dz C:\Users\Test-notebook\Desktop\opi-dz\Models C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Models\CMakeFiles\Models.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Models C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Models\CMakeFiles\Models.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : Models/CMakeFiles/Models.dir/depend
 

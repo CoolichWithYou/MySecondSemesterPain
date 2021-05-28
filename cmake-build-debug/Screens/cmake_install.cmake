@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Test-notebook/Desktop/opi-dz/Screens
+# Install script for directory: C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

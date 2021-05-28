@@ -4,6 +4,15 @@
 State/CMakeFiles/State.dir/State.cpp.obj: ../State/State.cpp
 State/CMakeFiles/State.dir/State.cpp.obj: ../State/State.h
 
+State/CMakeFiles/State.dir/Store.cpp.obj: ../MyConMenu/AbstractMenuItem/AbstractMenuItem.h
+State/CMakeFiles/State.dir/Store.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
+State/CMakeFiles/State.dir/Store.cpp.obj: ../App/app.h
+State/CMakeFiles/State.dir/Store.cpp.obj: ../Models/Human/Human.h
+State/CMakeFiles/State.dir/Store.cpp.obj: ../Models/Subject/Subject.h
+State/CMakeFiles/State.dir/Store.cpp.obj: ../MyConMenu/CMenu/CMenu.h
+State/CMakeFiles/State.dir/Store.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
+State/CMakeFiles/State.dir/Store.cpp.obj: ../Screens/Auth/Auth.h
+State/CMakeFiles/State.dir/Store.cpp.obj: ../State/State.h
 State/CMakeFiles/State.dir/Store.cpp.obj: ../State/Store.cpp
 State/CMakeFiles/State.dir/Store.cpp.obj: ../State/Store.h
 

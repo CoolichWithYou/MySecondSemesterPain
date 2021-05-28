@@ -66,10 +66,10 @@ RM = C:\Users\Test-notebook\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\opi-dz
+CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Screens\\CMakeFiles\progress.marks
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens\\CMakeFiles\progress.marks
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/clean
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/preinstall
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/preinstall
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 Screens/CMakeFiles/Screens.dir/rule:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/CMakeFiles/Screens.dir/rule
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Screens/CMakeFiles/Screens.dir/rule
 .PHONY : Screens/CMakeFiles/Screens.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ Screens: Screens/CMakeFiles/Screens.dir/rule
 
 # fast build rule for target.
 Screens/fast:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/build
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/build
 .PHONY : Screens/fast
 
 Auth/Auth.obj: Auth/Auth.cpp.obj
@@ -149,7 +149,7 @@ Auth/Auth.obj: Auth/Auth.cpp.obj
 
 # target to build an object file
 Auth/Auth.cpp.obj:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj
 .PHONY : Auth/Auth.cpp.obj
 
 Auth/Auth.i: Auth/Auth.cpp.i
@@ -158,7 +158,7 @@ Auth/Auth.i: Auth/Auth.cpp.i
 
 # target to preprocess a source file
 Auth/Auth.cpp.i:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.i
 .PHONY : Auth/Auth.cpp.i
 
 Auth/Auth.s: Auth/Auth.cpp.s
@@ -167,8 +167,35 @@ Auth/Auth.s: Auth/Auth.cpp.s
 
 # target to generate assembly for a file
 Auth/Auth.cpp.s:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.s
 .PHONY : Auth/Auth.cpp.s
+
+InterfaceScreen.obj: InterfaceScreen.cpp.obj
+
+.PHONY : InterfaceScreen.obj
+
+# target to build an object file
+InterfaceScreen.cpp.obj:
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj
+.PHONY : InterfaceScreen.cpp.obj
+
+InterfaceScreen.i: InterfaceScreen.cpp.i
+
+.PHONY : InterfaceScreen.i
+
+# target to preprocess a source file
+InterfaceScreen.cpp.i:
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.i
+.PHONY : InterfaceScreen.cpp.i
+
+InterfaceScreen.s: InterfaceScreen.cpp.s
+
+.PHONY : InterfaceScreen.s
+
+# target to generate assembly for a file
+InterfaceScreen.cpp.s:
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f Screens\CMakeFiles\Screens.dir\build.make Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.s
+.PHONY : InterfaceScreen.cpp.s
 
 # Help Target
 help:
@@ -182,6 +209,9 @@ help:
 	@echo ... Auth/Auth.obj
 	@echo ... Auth/Auth.i
 	@echo ... Auth/Auth.s
+	@echo ... InterfaceScreen.obj
+	@echo ... InterfaceScreen.i
+	@echo ... InterfaceScreen.s
 .PHONY : help
 
 
@@ -193,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

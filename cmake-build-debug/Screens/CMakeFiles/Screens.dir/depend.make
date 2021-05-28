@@ -13,3 +13,6 @@ Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../State/Store.h
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../Screens/Auth/Auth.cpp
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../Screens/Auth/Auth.h
 
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../Screens/InterfaceScreen.cpp
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../Screens/InterfaceScreen.h
+

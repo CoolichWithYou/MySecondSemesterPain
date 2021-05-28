@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Test-notebook/Desktop/opi-dz
+# Install script for directory: C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,27 +39,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/Models/cmake_install.cmake")
+  include("C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Models/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/MyConMenu/cmake_install.cmake")
+  include("C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/MyConMenu/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/App/cmake_install.cmake")
+  include("C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/App/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/State/cmake_install.cmake")
+  include("C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/State/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/Screens/cmake_install.cmake")
+  include("C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Screens/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

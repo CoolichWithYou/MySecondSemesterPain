@@ -61,10 +61,10 @@ RM = C:\Users\Test-notebook\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\opi-dz
+CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include Screens/CMakeFiles/Screens.dir/depend.make
@@ -75,33 +75,49 @@ include Screens/CMakeFiles/Screens.dir/progress.make
 # Include the compile flags for this target's objects.
 include Screens/CMakeFiles/Screens.dir/flags.make
 
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: Screens/CMakeFiles/Screens.dir/flags.make
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: Screens/CMakeFiles/Screens.dir/includes_CXX.rsp
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj: ../Screens/InterfaceScreen.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Screens.dir\InterfaceScreen.cpp.obj -c C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Screens\InterfaceScreen.cpp
+
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Screens.dir/InterfaceScreen.cpp.i"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Screens\InterfaceScreen.cpp > CMakeFiles\Screens.dir\InterfaceScreen.cpp.i
+
+Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Screens.dir/InterfaceScreen.cpp.s"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Screens\InterfaceScreen.cpp -o CMakeFiles\Screens.dir\InterfaceScreen.cpp.s
+
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: Screens/CMakeFiles/Screens.dir/flags.make
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: Screens/CMakeFiles/Screens.dir/includes_CXX.rsp
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj: ../Screens/Auth/Auth.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Screens && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Screens.dir\Auth\Auth.cpp.obj -c C:\Users\Test-notebook\Desktop\opi-dz\Screens\Auth\Auth.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Screens.dir\Auth\Auth.cpp.obj -c C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Screens\Auth\Auth.cpp
 
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Screens.dir/Auth/Auth.cpp.i"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Screens && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\opi-dz\Screens\Auth\Auth.cpp > CMakeFiles\Screens.dir\Auth\Auth.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Screens\Auth\Auth.cpp > CMakeFiles\Screens.dir\Auth\Auth.cpp.i
 
 Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Screens.dir/Auth/Auth.cpp.s"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Screens && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\opi-dz\Screens\Auth\Auth.cpp -o CMakeFiles\Screens.dir\Auth\Auth.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens && C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Screens\Auth\Auth.cpp -o CMakeFiles\Screens.dir\Auth\Auth.cpp.s
 
 # Object files for target Screens
 Screens_OBJECTS = \
+"CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj" \
 "CMakeFiles/Screens.dir/Auth/Auth.cpp.obj"
 
 # External object files for target Screens
 Screens_EXTERNAL_OBJECTS =
 
+Screens/libScreens.a: Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj
 Screens/libScreens.a: Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj
 Screens/libScreens.a: Screens/CMakeFiles/Screens.dir/build.make
 Screens/libScreens.a: Screens/CMakeFiles/Screens.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libScreens.a"
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Screens && $(CMAKE_COMMAND) -P CMakeFiles\Screens.dir\cmake_clean_target.cmake
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Screens && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Screens.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libScreens.a"
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens && $(CMAKE_COMMAND) -P CMakeFiles\Screens.dir\cmake_clean_target.cmake
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Screens.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 Screens/CMakeFiles/Screens.dir/build: Screens/libScreens.a
@@ -109,10 +125,10 @@ Screens/CMakeFiles/Screens.dir/build: Screens/libScreens.a
 .PHONY : Screens/CMakeFiles/Screens.dir/build
 
 Screens/CMakeFiles/Screens.dir/clean:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Screens && $(CMAKE_COMMAND) -P CMakeFiles\Screens.dir\cmake_clean.cmake
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens && $(CMAKE_COMMAND) -P CMakeFiles\Screens.dir\cmake_clean.cmake
 .PHONY : Screens/CMakeFiles/Screens.dir/clean
 
 Screens/CMakeFiles/Screens.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Test-notebook\Desktop\opi-dz C:\Users\Test-notebook\Desktop\opi-dz\Screens C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Screens C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\Screens\CMakeFiles\Screens.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\Screens C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\Screens\CMakeFiles\Screens.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : Screens/CMakeFiles/Screens.dir/depend
 

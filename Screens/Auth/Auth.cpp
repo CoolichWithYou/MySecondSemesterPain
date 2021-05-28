@@ -38,13 +38,64 @@ void connectDatabaseToVector() {
         }
     }
     nicknames.close();
+
+    fstream firstNames("FirstName.txt");
+
+    string helpString;
+    int helpInt{};
+
+    if(!firstNames){
+        cout << "файл не удалось открыть!\n";
+    }
+    else{
+        for(int i = 0; !firstNames.eof(); i++){
+            Human a;
+            getline(firstNames, helpString);
+            a.setName(helpString);
+            humanList.push_back(a);
+            humanList[humanList.size()-1].setId(humanList.size()-1);
+        }
+    }
+    firstNames.close();
+
+    fstream secondNames("SecondName.txt");
+
+    if(!secondNames){
+        cout << "файл не удалось открыть!\n";
+    }
+    else{
+        for(int i = 0; !secondNames.eof(); i++){
+            getline(secondNames, helpString);
+            humanList[i].setSurname(helpString);
+        }
+    }
+    secondNames.close();
+
+
+    fstream accessLvl("AccessLvl.txt");
+
+    if(!accessLvl){
+        cout << "файл не удалось открыть!\n";
+    }
+    else{
+        for(int i = 0; !accessLvl.eof(); i++){
+            getline(accessLvl, helpString);
+            if(helpString[0] == 48){
+                helpInt = 0;
+            }
+            else{
+                helpInt = 1;
+            }
+            humanList[i].setPost(helpInt);
+        }
+    }
+    accessLvl.close();
 }
 
 //auth
 void greeting(){
-    cout << "Приветствуем вас в zooShop, здесь вам всегда рады!" << endl;
+    cout << "EOS" << endl;
 }
-
 void auth(){
     CMenuItem items[2]{CMenuItem{"Создать аккаунт", regIn},
                        CMenuItem{"Авторизоваться", logIn}};

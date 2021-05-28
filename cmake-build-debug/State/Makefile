@@ -66,10 +66,10 @@ RM = C:\Users\Test-notebook\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\211.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\opi-dz
+CMAKE_SOURCE_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -98,14 +98,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\State\\CMakeFiles\progress.marks
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\State\\CMakeFiles\progress.marks
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/clean
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/clean
 .PHONY : clean
 
 # The main clean target
@@ -115,22 +115,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/preinstall
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/preinstall
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 State/CMakeFiles/State.dir/rule:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/CMakeFiles/State.dir/rule
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 State/CMakeFiles/State.dir/rule
 .PHONY : State/CMakeFiles/State.dir/rule
 
 # Convenience name for target.
@@ -140,7 +140,7 @@ State: State/CMakeFiles/State.dir/rule
 
 # fast build rule for target.
 State/fast:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/build
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/build
 .PHONY : State/fast
 
 State.obj: State.cpp.obj
@@ -149,7 +149,7 @@ State.obj: State.cpp.obj
 
 # target to build an object file
 State.cpp.obj:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/State.cpp.obj
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/State.cpp.obj
 .PHONY : State.cpp.obj
 
 State.i: State.cpp.i
@@ -158,7 +158,7 @@ State.i: State.cpp.i
 
 # target to preprocess a source file
 State.cpp.i:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/State.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/State.cpp.i
 .PHONY : State.cpp.i
 
 State.s: State.cpp.s
@@ -167,7 +167,7 @@ State.s: State.cpp.s
 
 # target to generate assembly for a file
 State.cpp.s:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/State.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/State.cpp.s
 .PHONY : State.cpp.s
 
 Store.obj: Store.cpp.obj
@@ -176,7 +176,7 @@ Store.obj: Store.cpp.obj
 
 # target to build an object file
 Store.cpp.obj:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/Store.cpp.obj
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/Store.cpp.obj
 .PHONY : Store.cpp.obj
 
 Store.i: Store.cpp.i
@@ -185,7 +185,7 @@ Store.i: Store.cpp.i
 
 # target to preprocess a source file
 Store.cpp.i:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/Store.cpp.i
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/Store.cpp.i
 .PHONY : Store.cpp.i
 
 Store.s: Store.cpp.s
@@ -194,7 +194,7 @@ Store.s: Store.cpp.s
 
 # target to generate assembly for a file
 Store.cpp.s:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/Store.cpp.s
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(MAKE) $(MAKESILENT) -f State\CMakeFiles\State.dir\build.make State/CMakeFiles/State.dir/Store.cpp.s
 .PHONY : Store.cpp.s
 
 # Help Target
@@ -223,6 +223,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Test-notebook\Desktop\opi-dz\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Test-notebook\Desktop\GitHubDesctop\MySecondSemesterPain\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

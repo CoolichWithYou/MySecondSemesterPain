@@ -4,7 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Test-notebook/Desktop/opi-dz/Screens/Auth/Auth.cpp" "C:/Users/Test-notebook/Desktop/opi-dz/cmake-build-debug/Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj"
+  "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens/Auth/Auth.cpp" "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Screens/CMakeFiles/Screens.dir/Auth/Auth.cpp.obj"
+  "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens/InterfaceScreen.cpp" "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Screens/CMakeFiles/Screens.dir/InterfaceScreen.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
