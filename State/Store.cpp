@@ -13,8 +13,10 @@ void fillVectorOfSubject(){
     else{
         for(int i = 0; !subjects.eof(); i++){
             getline(subjects, subjectName);
-            Subject a(subjectName);
-            subjectList.push_back(a);
+            if(subjectName != "\n") {
+                Subject a(subjectName);
+                subjectList.push_back(a);
+            }
         }
     }
     subjects.close();

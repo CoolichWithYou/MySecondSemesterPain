@@ -71,6 +71,12 @@ public:
         << endl;
     }
 
+    bool operator<(const Human& human) const;
+    bool operator<=(const Human& human) const;
+    bool operator>(const Human& human) const;
+    bool operator>=(const Human& human) const;
+    bool operator==(const Human& human) const;
+    bool operator!=(const Human& human) const;
 
     friend std::ostream& operator<< (std::ostream &out, Human &human);
 
@@ -80,6 +86,8 @@ private:
     int m_id;
     bool m_post;
 };
+
+
 
 //std::vector<Human> humanList;
 

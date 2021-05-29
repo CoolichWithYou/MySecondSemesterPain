@@ -18,10 +18,24 @@ int nothing(){ //костыль
 }
 
 int sortSubjectByName() {
-        bool checkChanges = true;
-        while(checkChanges){
-            checkChanges = sortSubjectAlgorithm();
+
+    sort(subjectList.begin(), subjectList.end());
+
+    fstream subjects("subjects.txt", std::ofstream::out | std::ofstream::trunc);
+
+
+    if (!subjects) {
+        cout << "файл не удалось открыть!\n";
+    }
+    else{
+        int i = 0;
+        subjects << subjectList[i].getName();
+        for(i = 1; i < subjectList.size(); i++){
+            subjects << "\n" << subjectList[i].getName();
         }
+    }
+    subjects.close();
+    SubjectList();
         return 1;
 }
 int editSubject(){
@@ -349,15 +363,7 @@ int deleteUser(){
     return 1;
 }
 int sortUserByName(){
-
-    if(!checkEmpty(humanList)){
-        bool checkChanges = true;
-        bool changeCatch = false;
-        while (checkChanges) {
-            checkChanges = sortAlgorithm();
-            changeCatch = false;
-        }
-    }
+    sort(humanList.begin(), humanList.end());
     system("pause");
     userList();
     return 1;
@@ -389,31 +395,27 @@ int showStudents() {
 
 bool sortAlgorithm(){
     string tradeString;
-    bool changeCatch = false;
-    for(int i = 0; i < humanList.size(); i++){
-        for(int j = 0; j < humanList.size(); j++){
-            if(humanList[i].getName()[0] > humanList[j].getName()[0]){
-                tradeString = humanList[i].getName();
-                humanList[i].setName(humanList[j].getName());
-                humanList[j].setName(tradeString);
-                changeCatch = true;
-            }
+    for(int i = 0; i < humanList.size()-1; i++){
+        for(int j = 0; j < humanList.size()-1; j++){
+        if((humanList[i].getName()[0] < humanList[j].getName()[0]) && (i < j)) {
+            tradeString = humanList[i].getName();
+            humanList[i].setName(humanList[j].getName());
+            humanList[j].setName(tradeString);
+        }
         }
     }
-    return changeCatch;
+    return true;
 }
 bool sortSubjectAlgorithm() {
     string tradeString;
-    bool changeCatch = false;
-    for(int i = 0; i < subjectList.size(); i++){
-        for(int j = 0; j < subjectList.size(); j++){
-            if(subjectList[i].getName()[0] > subjectList[j].getName()[0]){
+    for(int i = 0; i < subjectList.size()-1; i++){
+        for(int j = 0; j < subjectList.size()-1; j++){
+            if((subjectList[i].getName()[0] < subjectList[j].getName()[0]) && (i < j)) {
                 tradeString = subjectList[i].getName();
                 subjectList[i].setName(subjectList[j].getName());
                 subjectList[j].setName(tradeString);
-                changeCatch = true;
             }
         }
     }
-    return changeCatch;
+    return true;
 }

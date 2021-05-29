@@ -20,9 +20,5 @@ int logIn();
 int regIn();
 void connectDatabaseToVector();
 
-class Auth {
-
-};
-
 
 #endif //OPI_DZ_AUTH_H

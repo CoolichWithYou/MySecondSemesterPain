@@ -36,9 +36,18 @@ public:
         i->print();
     }
 
+
+    bool operator<(const Subject& subject) const;
+    bool operator<=(const Subject& subject) const;
+    bool operator>(const Subject& subject) const;
+    bool operator>=(const Subject& subject) const;
+    bool operator==(const Subject& subject) const;
+    bool operator!=(const Subject& subject) const;
+
 private:
     string m_title{};
 };
+
 
 //std::vector<Subject> subjectList;
 
