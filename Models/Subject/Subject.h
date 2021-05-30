@@ -16,25 +16,21 @@ using namespace std;
 class Subject {
 public:
 
-    Subject(string title)
-            : m_title(std::move(title)) {
-    }
+    Subject() = default;
 
-    void setName(const string title) {
-        m_title = title;
-    }
+    explicit Subject(string title);
 
-    string getName() {
-        return m_title;
-    }
+    void setName(const string &title);
 
-    void print() {
-        cout << m_title << endl;
-    }
+    string getName();
 
-    static void print(vector<Subject>::iterator i, vector<class Subject>& subject){
-        i->print();
-    }
+    void print(ostream &out = cout) const;
+
+    // функция записи в бинарный файл
+    bool parseInBinFile(iostream &f_out);
+    // функция чтения из бинарного файла
+
+    bool unparseFromBinFile(iostream &f_in);
 
 
     bool operator<(const Subject& subject) const;

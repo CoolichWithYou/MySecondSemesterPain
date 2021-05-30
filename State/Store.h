@@ -7,7 +7,6 @@
 
 //#include "../App/app.h"
 
-void fillVectorOfSubject();
-
+bool restoreInFile();
 
 #endif //OPI_DZ_STORE_H
