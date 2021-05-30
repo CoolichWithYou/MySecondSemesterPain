@@ -26,10 +26,10 @@ int SubjectList() {
     }
     else{
         CMenuItem items[4]{
-                CMenuItem{"Отобразить список предметов", printSubjectList},
-                CMenuItem{"Сортировать по названию", sortSubjectByName},
-                CMenuItem{"Добавить новый элемент", addNewSubject},
-                CMenuItem{"Вернуться назад", runMenu}
+                CMenuItem{"Отобразить список предметов", nothing},
+                CMenuItem{"Сортировать по названию", nothing},
+                CMenuItem{"Добавить новый элемент", nothing},
+                CMenuItem{"Вернуться назад", nothing}
         };
 
         CMenu menu("Subject menu", items, 4);

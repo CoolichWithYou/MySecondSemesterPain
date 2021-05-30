@@ -22,6 +22,9 @@ extern string login;
 extern std::vector<Subject> subjectList;
 extern std::vector<Human> humanList;
 
+extern const string PATH_BIN_FILE;
+
+
 template<typename T>
 int checkEmpty(vector<T> a){
     if(a.empty()){
@@ -51,6 +54,11 @@ int showTeachers();
 int showStudents();
 int userList();
 
+void all();
+extern void generateSubjectsInList();
+extern bool restoreInFile();
+extern void printSubjectLst();
+extern bool saveInFile();
 //runfunctions
 
 #endif //TRY2_HUMAN_H

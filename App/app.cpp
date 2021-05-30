@@ -1,7 +1,3 @@
-//
-// Created by Test-notebook on 5/6/2021.
-//
-
 #include "app.h"
 
 using namespace CoolichWithYou;
@@ -12,122 +8,33 @@ string login = "-";
 std::vector<Subject> subjectList;
 std::vector<Human> humanList;
 
+const string PATH_BIN_FILE = "subject.dir";
 
 int nothing(){ //костыль
     return 0;
 }
 
-int sortSubjectByName() {
 
-    sort(subjectList.begin(), subjectList.end());
+bool saveInFile() {
+    fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
 
-    fstream subjects("subjects.txt", std::ofstream::out | std::ofstream::trunc);
-
-
-    if (!subjects) {
-        cout << "файл не удалось открыть!\n";
+    for (auto &it : subjectList) {
+        it.parseInBinFile(io_file);
     }
-    else{
-        int i = 0;
-        subjects << subjectList[i].getName();
-        for(i = 1; i < subjectList.size(); i++){
-            subjects << "\n" << subjectList[i].getName();
-        }
-    }
-    subjects.close();
-    SubjectList();
-        return 1;
+
+    io_file.close();
+
+    return true;
 }
-int editSubject(){
-    if(!checkEmpty(subjectList)){
-        auto it = subjectList.begin();
-
-        int count{};
-
-        for (it; it < subjectList.end(); it++) {
-            cout << count << setw(10);
-            Subject::print(it, subjectList);
-            count++;
+int printSubjectList(){
+    if (!checkEmpty(subjectList)) {
+        for (int i = 0; i < subjectList.size(); ++i) {
+            cout << i << " " << subjectList[i].getName() << endl;
         }
-        cout << "\n\n";
-    }
-
-    system("pause");
-
-    if(!checkEmpty(subjectList)){
-
-        int changeSubjectId{};
-        string newName, newSurname;
-        cout << "Введите id предмета, который хотите изменить:\n->>";
-        cin >> changeSubjectId;
-
-        cout << "Введите новое название предмета:\n->>";
-        cin >> newName;
-
-        subjectList[changeSubjectId] = newName;
-
-        fstream subjects("subjects.txt", std::ofstream::out | std::ofstream::trunc);
-
-        if (!subjects) {
-            cout << "файл не удалось открыть!\n";
-        }
-        else{
-            for(int i = 0; i < subjectList.size(); i++){
-                subjects << subjectList[i].getName() << "\n";
-            }
-        }
-        subjects.close();
-
-        cout << "Информация о предмете успешно изменена!\n\n";
-
-    }
-    else{
-        cout << "Список предметов пуст" << endl;
+        cout << "\n" << endl;
     }
     system("pause");
     SubjectList();
-    return 1;
-}
-int deleteSubject(){
-    if(!checkEmpty(subjectList)){
-        auto it = subjectList.begin();
-
-        int count{};
-
-        for (it; it < subjectList.end(); it++) {
-            cout << count << setw(10);
-            Subject::print(it, subjectList);
-            count++;
-        }
-        cout << "\n\n";
-    }
-
-    system("pause");
-
-    int deleteSubjectId{};
-    cout << "Введите id предмета, который хотите удалить:\n->>";
-    cin >> deleteSubjectId;
-
-    subjectList.erase(subjectList.begin() + deleteSubjectId);
-
-    fstream subjects("subjects.txt", std::ofstream::out | std::ofstream::trunc);
-
-
-    if (!subjects) {
-        cout << "файл не удалось открыть!\n";
-    }
-    else{
-        for(int i = 0; i < subjectList.size(); i++){
-            subjects << subjectList[i].getName() << "\n";
-        }
-    }
-    subjects.close();
-
-    cout << "предмет успешно удалён!\n\n";
-
-    system("pause");
-    SubjectList();
-    return 1;
 }
 int addNewSubject(){
     string name;
@@ -138,14 +45,13 @@ int addNewSubject(){
 
     subjectList.push_back(a);
 
-    fstream subjects("subjects.txt", ios_base::app);
-    subjects.seekg(0, ios_base::end);
+    fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
 
-    if(subjects.is_open()){
-        subjects << "\n";
-        subjects << name;
+    for (auto &it : subjectList) {
+        it.parseInBinFile(io_file);
     }
-    subjects.close();
+
+    io_file.close();
 
     cout << "Предмет успешно добавлен!\n\n";
 
@@ -153,23 +59,103 @@ int addNewSubject(){
     SubjectList();
     return 1;
 }
-int printSubjectList(){
+int sortSubjectByName(){
+    if (!checkEmpty(subjectList)){
+        sort(subjectList.begin(), subjectList.end());
+        for (int i = 0; i < subjectList.size(); ++i) {
+            cout << subjectList[i].getName() << endl;
+        }
+
+        fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
+
+        for (auto &it : subjectList) {
+            it.parseInBinFile(io_file);
+        }
+
+        io_file.close();
+
+        cout << "\n" << endl;
+    }
+
+    system("pause");
+    SubjectList();
+}
+int editSubject(){
     if(!checkEmpty(subjectList)){
         auto it = subjectList.begin();
 
-        int count{};
-
-        for (it; it < subjectList.end(); it++) {
-            cout << count << setw(10);
-            Subject::print(it, subjectList);
-            count++;
+        for (int i = 0; i < subjectList.size(); ++i) {
+            cout << i << " " << subjectList[i].getName() << endl;
         }
         cout << "\n\n";
+
+        int changeSubjectId{};
+        string newName, newSurname;
+        cout << "Введите id предмета, который хотите изменить:\n->>";
+        cin >> changeSubjectId;
+
+        cout << "Введите новое название предмета:\n->>";
+        cin >> newName;
+
+        subjectList[changeSubjectId].setName(newName);
+
+        fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
+
+        for (auto &it : subjectList) {
+            it.parseInBinFile(io_file);
+        }
+
+        io_file.close();
+
+        cout << "Информация о предмете успешно изменена!\n\n";
     }
 
     system("pause");
     SubjectList();
     return 1;
+}
+int deleteSubject(){
+    if(!checkEmpty(subjectList)){
+        auto it = subjectList.begin();
+
+        for (int i = 0; i < subjectList.size(); ++i) {
+            cout << i << " " << subjectList[i].getName() << endl;
+        }
+        cout << "\n\n";
+
+        int deleteSubjectId{};
+        cout << "Введите id предмета, который хотите удалить:\n->>";
+        cin >> deleteSubjectId;
+
+        subjectList.erase(subjectList.begin() + deleteSubjectId);
+
+        fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
+
+        for (auto &it : subjectList) {
+            it.parseInBinFile(io_file);
+        }
+
+        io_file.close();
+
+        cout << "предмет успешно удалён!\n\n";
+    }
+
+    system("pause");
+    SubjectList();
+    return 1;
+}
+
+bool restoreInFile() {
+    fstream io_file(PATH_BIN_FILE, ios::binary | ios::in);
+
+    Subject subject{};
+    while (subject.unparseFromBinFile(io_file)) {
+        subjectList.push_back(subject);
+    }
+
+    io_file.close();
+
+    return true;
 }
 
 int addNewUser(){
