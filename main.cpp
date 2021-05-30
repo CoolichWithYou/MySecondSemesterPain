@@ -21,19 +21,14 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
 #endif
 
-
-
-//    all();
-
-
         restoreInFile();
-//
+
         connectDatabaseToVector();
-//
+
         greeting();
-//
+
         authorizathion();
-//
+
     CMenuItem items[1]{CMenuItem{"Затычка", nothing}};
     CMenu menu("My console menu", items, 1);
 

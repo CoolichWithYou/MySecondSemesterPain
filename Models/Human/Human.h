@@ -15,11 +15,16 @@ using namespace std;
 class Human {
 public:
 
+    bool parseInBinFileHuman(iostream &f_out);
+    // функция чтения из бинарного файла
+
+    bool unparseFromBinFileHuman(iostream &f_in);
+
     Human(string name, string surname, bool id)
             : m_name(std::move(name)), m_surname(std::move(surname)), m_post(id) {
     }
 
-    Human() : m_name("-"), m_surname("-"), m_id(0){}
+    Human() : m_name("-"), m_surname("-"), m_post(0){}
 
     void setName(const string name) {
         m_name = name;
@@ -59,13 +64,13 @@ public:
 
     void print() {
         if(m_post) {
-            cout << "Учитель:\t";
+            cout << "Преподаватель:\t";
         }
         else{
             cout << "Студент:\t";
         }
         cout << m_name
-        << "\t"
+        << "\t\t"
         << m_surname
         << "\t"
         << endl;

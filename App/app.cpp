@@ -9,6 +9,7 @@ std::vector<Subject> subjectList;
 std::vector<Human> humanList;
 
 const string PATH_BIN_FILE = "subject.dir";
+const string HUMAN_BIN_FILE = "human.dir";
 
 int nothing(){ //костыль
     return 0;
@@ -155,6 +156,15 @@ bool restoreInFile() {
 
     io_file.close();
 
+    fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::in);
+
+    Human human{};
+    while (human.unparseFromBinFileHuman(hu_file)) {
+        humanList.push_back(human);
+    }
+
+    hu_file.close();
+
     return true;
 }
 
@@ -175,47 +185,56 @@ int addNewUser(){
 
     humanList[humanList.size()-1].setId(humanList.size()-1);
 
-    fstream firstNames("FirstName.txt", std::ofstream::out | std::ofstream::trunc);
+    fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::out);
 
-    if (!firstNames) {
-        cout << "файл не удалось открыть!\n";
+    for (auto &it : humanList) {
+        it.parseInBinFileHuman(hu_file);
     }
-    else{
-        for(int i = 0; i < humanList.size(); i++){
-            firstNames << humanList[i].getName() << "\n";
-        }
-    }
-    firstNames.close();
 
-    fstream secondNames("SecondName.txt", std::ofstream::out | std::ofstream::trunc);
+    hu_file.close();
 
-    if (!secondNames) {
-        cout << "файл не удалось открыть!\n";
-    }
-    else{
-        for(int i = 0; i < humanList.size(); i++){
-            secondNames << humanList[i].getSurname() << "\n";
-        }
-    }
-    secondNames.close();
 
-    fstream accessLevel("AccessLvl.txt", std::ofstream::out | std::ofstream::trunc);
+//    fstream firstNames("FirstName.txt", std::ofstream::out | std::ofstream::trunc);
+//
+//    if (!firstNames) {
+//        cout << "файл не удалось открыть!\n";
+//    }
+//    else{
+//        for(int i = 0; i < humanList.size(); i++){
+//            firstNames << humanList[i].getName() << "\n";
+//        }
+//    }
+//    firstNames.close();
+//
+//    fstream secondNames("SecondName.txt", std::ofstream::out | std::ofstream::trunc);
+//
+//    if (!secondNames) {
+//        cout << "файл не удалось открыть!\n";
+//    }
+//    else{
+//        for(int i = 0; i < humanList.size(); i++){
+//            secondNames << humanList[i].getSurname() << "\n";
+//        }
+//    }
+//    secondNames.close();
 
-    if (!accessLevel) {
-        cout << "файл не удалось открыть!\n";
-    }
-    else{
-        for(int i = 0; i < humanList.size(); i++){
-            accessLevel << humanList[i].getPost() << "\n";
-        }
-    }
-    accessLevel.close();
+//    fstream accessLevel("AccessLvl.txt", std::ofstream::out | std::ofstream::trunc);
+//
+//    if (!accessLevel) {
+//        cout << "файл не удалось открыть!\n";
+//    }
+//    else{
+//        for(int i = 0; i < humanList.size(); i++){
+//            accessLevel << humanList[i].getPost() << "\n";
+//        }
+//    }
+//    accessLevel.close();
     system("pause");
     userList();
     return 1;
 }
 int printAllUsers(){
-    if(!checkEmpty(subjectList)){
+    if(!checkEmpty(humanList)){
         vector<Human>::iterator it = humanList.begin();
 
         int count{};
@@ -318,29 +337,13 @@ int deleteUser(){
 
         humanList.erase(humanList.begin() + deleteUserId + 1);
 
-        fstream firstNames("FirstName.txt", std::ofstream::out | std::ofstream::trunc);
+        fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::out);
 
-        if (!firstNames) {
-            cout << "файл не удалось открыть!\n";
+        for (auto &it : humanList) {
+            it.parseInBinFileHuman(hu_file);
         }
-        else{
-            for(int i = 0; i < humanList.size(); i++){
-                firstNames << humanList[i].getName() << "\n";
-            }
-        }
-        firstNames.close();
 
-        fstream secondNames("SecondName.txt", std::ofstream::out | std::ofstream::trunc);
-
-        if (!secondNames) {
-            cout << "файл не удалось открыть!\n";
-        }
-        else{
-            for(int i = 0; i < humanList.size(); i++){
-                secondNames << humanList[i].getSurname() << "\n";
-            }
-        }
-        secondNames.close();
+        hu_file.close();
 
         cout << "пользователь успешно удалён!\n\n";
     }
@@ -350,6 +353,18 @@ int deleteUser(){
 }
 int sortUserByName(){
     sort(humanList.begin(), humanList.end());
+
+    vector<Human>::iterator it = humanList.begin();
+
+    int count{};
+
+    for (it; it < humanList.end(); it++) {
+        cout << count << "\t";
+        Human::printList(it, humanList);
+        count++;
+    }
+    cout << "\n\n";
+
     system("pause");
     userList();
     return 1;
@@ -377,31 +392,4 @@ int showStudents() {
     system("pause");
     userList();
     return 1;
-}
-
-bool sortAlgorithm(){
-    string tradeString;
-    for(int i = 0; i < humanList.size()-1; i++){
-        for(int j = 0; j < humanList.size()-1; j++){
-        if((humanList[i].getName()[0] < humanList[j].getName()[0]) && (i < j)) {
-            tradeString = humanList[i].getName();
-            humanList[i].setName(humanList[j].getName());
-            humanList[j].setName(tradeString);
-        }
-        }
-    }
-    return true;
-}
-bool sortSubjectAlgorithm() {
-    string tradeString;
-    for(int i = 0; i < subjectList.size()-1; i++){
-        for(int j = 0; j < subjectList.size()-1; j++){
-            if((subjectList[i].getName()[0] < subjectList[j].getName()[0]) && (i < j)) {
-                tradeString = subjectList[i].getName();
-                subjectList[i].setName(subjectList[j].getName());
-                subjectList[j].setName(tradeString);
-            }
-        }
-    }
-    return true;
 }
