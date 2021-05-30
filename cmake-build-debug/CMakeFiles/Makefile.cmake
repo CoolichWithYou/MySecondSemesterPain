@@ -33,6 +33,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Users/Test-notebook/AppData/Local/JetBrains/Toolbox/apps/CLion/ch-0/211.7142.21/bin/cmake/win/share/cmake-3.19/Modules/ProcessorCount.cmake"
   "../App/CMakeLists.txt"
   "../CMakeLists.txt"
+  "../Color/CMakeLists.txt"
   "../Models/CMakeLists.txt"
   "../MyConMenu/CMakeLists.txt"
   "../Screens/CMakeLists.txt"
@@ -55,6 +56,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "Models/CMakeFiles/CMakeDirectoryInformation.cmake"
   "MyConMenu/CMakeFiles/CMakeDirectoryInformation.cmake"
   "App/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "Color/CMakeFiles/CMakeDirectoryInformation.cmake"
   "State/CMakeFiles/CMakeDirectoryInformation.cmake"
   "Screens/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
@@ -65,6 +67,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "Models/CMakeFiles/Models.dir/DependInfo.cmake"
   "MyConMenu/CMakeFiles/MyConMenu.dir/DependInfo.cmake"
   "App/CMakeFiles/App.dir/DependInfo.cmake"
+  "Color/CMakeFiles/Color.dir/DependInfo.cmake"
   "State/CMakeFiles/State.dir/DependInfo.cmake"
   "Screens/CMakeFiles/Screens.dir/DependInfo.cmake"
   )

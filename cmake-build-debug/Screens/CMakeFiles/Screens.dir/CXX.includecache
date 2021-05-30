@@ -33,6 +33,12 @@ iomanip
 ../Screens/Auth/Auth.h
 ../Screens/InterfaceScreen.h
 ../Screens/InterfaceScreen.h
+../Color/Color.h
+../Color/Color.h
+
+../Color/Color.h
+windows.h
+-
 
 ../Models/Human/Human.h
 iostream
@@ -41,6 +47,8 @@ string
 -
 vector
 -
+../Color/Color.h
+../Models/Color/Color.h
 
 ../Models/Subject/Subject.h
 iostream
@@ -107,6 +115,12 @@ C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State/State.h
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens/Auth/Auth.h
 ../Screens/InterfaceScreen.h
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens/InterfaceScreen.h
+../Color/Color.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color/Color.h
+
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color/Color.h
+windows.h
+-
 
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Human/Human.h
 iostream
@@ -115,6 +129,8 @@ string
 -
 vector
 -
+../Color/Color.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Color/Color.h
 
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Subject/Subject.h
 iostream

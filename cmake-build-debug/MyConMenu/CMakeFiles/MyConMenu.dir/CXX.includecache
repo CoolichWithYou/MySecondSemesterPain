@@ -33,6 +33,12 @@ iomanip
 ../Screens/Auth/Auth.h
 ../Screens/InterfaceScreen.h
 ../Screens/InterfaceScreen.h
+../Color/Color.h
+../Color/Color.h
+
+../Color/Color.h
+windows.h
+-
 
 ../Models/Human/Human.h
 iostream
@@ -41,6 +47,8 @@ string
 -
 vector
 -
+../Color/Color.h
+../Models/Color/Color.h
 
 ../Models/Subject/Subject.h
 iostream

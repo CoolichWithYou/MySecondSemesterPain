@@ -5,7 +5,7 @@
 		<Option title="opi-dz"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\App\;CMake Files\Models\;CMake Files\MyConMenu\;CMake Files\Screens\;CMake Files\State\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\App\;CMake Files\Color\;CMake Files\Models\;CMake Files\MyConMenu\;CMake Files\Screens\;CMake Files\State\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug"/>
@@ -27,6 +27,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -54,6 +55,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -101,6 +103,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -128,6 +131,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -155,6 +159,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -182,6 +187,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -209,6 +215,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -236,6 +243,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -253,6 +261,62 @@
 					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/App/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
+			<Target title="Color">
+				<Option output="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/libColor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 Color"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Color/fast">
+				<Option output="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/libColor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 Color/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
 			<Target title="State">
 				<Option output="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/State/libState.a" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/State"/>
@@ -263,6 +327,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -292,6 +357,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -321,6 +387,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -348,6 +415,7 @@
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App"/>
+					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Screens"/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/."/>
 					<Add directory="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/State"/>
@@ -371,6 +439,12 @@
 		</Unit>
 		<Unit filename="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App/app.h">
 			<Option target="App"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color/Color.cpp">
+			<Option target="Color"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color/Color.h">
+			<Option target="Color"/>
 		</Unit>
 		<Unit filename="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Human/Human.cpp">
 			<Option target="Models"/>
@@ -434,6 +508,9 @@
 		</Unit>
 		<Unit filename="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/App/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\App\"/>
+		</Unit>
+		<Unit filename="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\Color\"/>
 		</Unit>
 		<Unit filename="C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\Models\"/>

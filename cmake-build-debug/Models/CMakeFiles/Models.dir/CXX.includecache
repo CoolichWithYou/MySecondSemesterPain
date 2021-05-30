@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../Color/Color.h
+windows.h
+-
+
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Human/Human.cpp
 Human.h
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Human/Human.h
@@ -17,4 +21,6 @@ string
 -
 vector
 -
+../Color/Color.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Models/Color/Color.h
 

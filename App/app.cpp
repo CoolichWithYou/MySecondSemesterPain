@@ -30,7 +30,11 @@ bool saveInFile() {
 int printSubjectList(){
     if (!checkEmpty(subjectList)) {
         for (int i = 0; i < subjectList.size(); ++i) {
-            cout << i << " " << subjectList[i].getName() << endl;
+            setColor(Yellow,Black);
+            cout << i;
+            setColor(White,Black);
+            cout << " " << subjectList[i].getName() << endl;
+
         }
         cout << "\n" << endl;
     }
@@ -64,7 +68,10 @@ int sortSubjectByName(){
     if (!checkEmpty(subjectList)){
         sort(subjectList.begin(), subjectList.end());
         for (int i = 0; i < subjectList.size(); ++i) {
-            cout << subjectList[i].getName() << endl;
+            setColor(Yellow,Black);
+            cout << i;
+            setColor(White,Black);
+            cout << " " << subjectList[i].getName() << endl;
         }
 
         fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
@@ -86,7 +93,10 @@ int editSubject(){
         auto it = subjectList.begin();
 
         for (int i = 0; i < subjectList.size(); ++i) {
-            cout << i << " " << subjectList[i].getName() << endl;
+            setColor(Yellow,Black);
+            cout << i;
+            setColor(White,Black);
+            cout << " " << subjectList[i].getName() << endl;
         }
         cout << "\n\n";
 
@@ -240,7 +250,11 @@ int printAllUsers(){
         int count{};
 
         for (it; it < humanList.end(); it++) {
+
+            setColor(Yellow,Black);
             cout << count << "\t";
+            setColor(White,Black);
+
             Human::printList(it, humanList);
             count++;
         }
@@ -320,7 +334,11 @@ int deleteUser(){
         int count{};
 
         for (it; it < humanList.end(); it++) {
+
+            setColor(Yellow,Black);
             cout << count << "\t";
+            setColor(White,Black);
+
             Human::printList(it, humanList);
             count++;
         }
@@ -359,7 +377,11 @@ int sortUserByName(){
     int count{};
 
     for (it; it < humanList.end(); it++) {
+
+        setColor(Yellow,Black);
         cout << count << "\t";
+        setColor(White,Black);
+        
         Human::printList(it, humanList);
         count++;
     }

@@ -10,6 +10,9 @@ C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-de
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/App/CMakeFiles/App.dir
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/App/CMakeFiles/edit_cache.dir
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/App/CMakeFiles/rebuild_cache.dir
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/CMakeFiles/edit_cache.dir
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/CMakeFiles/Color.dir
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/CMakeFiles/rebuild_cache.dir
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/State/CMakeFiles/State.dir
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/State/CMakeFiles/edit_cache.dir
 C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/State/CMakeFiles/rebuild_cache.dir

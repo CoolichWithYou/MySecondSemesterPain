@@ -5,6 +5,7 @@ MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.obj: ..
 MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.obj: ../MyConMenu/AbstractMenuItem/AbstractMenuItem.h
 
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../App/app.h
+MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../Color/Color.h
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../Models/Human/Human.h
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../Models/Subject/Subject.h
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj: ../MyConMenu/AbstractMenuItem/AbstractMenuItem.h

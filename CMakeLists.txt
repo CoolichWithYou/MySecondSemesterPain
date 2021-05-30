@@ -9,6 +9,8 @@ include_directories(MyConMenu)
 
 include_directories(App)
 
+include_directories(Color)
+
 include_directories(Screens)
 
 include_directories(.)
@@ -21,10 +23,12 @@ add_subdirectory(MyConMenu)
 
 add_subdirectory(App)
 
+add_subdirectory(Color)
+
 add_subdirectory(State)
 
 add_subdirectory(Screens)
 
 add_executable(opi-dz main.cpp)
 
-target_link_libraries(opi-dz MyConMenu Models App State Screens)
+target_link_libraries(opi-dz MyConMenu Models App State Screens Color)

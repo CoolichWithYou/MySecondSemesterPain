@@ -13,6 +13,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Models"
   "../MyConMenu"
   "../App"
+  "../Color"
   "../Screens"
   "../."
   "../State"
@@ -25,6 +26,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/App/CMakeFiles/App.dir/DependInfo.cmake"
   "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/State/CMakeFiles/State.dir/DependInfo.cmake"
   "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Screens/CMakeFiles/Screens.dir/DependInfo.cmake"
+  "C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/cmake-build-debug/Color/CMakeFiles/Color.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

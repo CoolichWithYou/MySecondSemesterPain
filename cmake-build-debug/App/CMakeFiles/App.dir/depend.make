@@ -5,6 +5,7 @@ App/CMakeFiles/App.dir/app.cpp.obj: ../MyConMenu/AbstractMenuItem/AbstractMenuIt
 App/CMakeFiles/App.dir/app.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
 App/CMakeFiles/App.dir/app.cpp.obj: ../App/app.cpp
 App/CMakeFiles/App.dir/app.cpp.obj: ../App/app.h
+App/CMakeFiles/App.dir/app.cpp.obj: ../Color/Color.h
 App/CMakeFiles/App.dir/app.cpp.obj: ../Models/Human/Human.h
 App/CMakeFiles/App.dir/app.cpp.obj: ../Models/Subject/Subject.h
 App/CMakeFiles/App.dir/app.cpp.obj: ../MyConMenu/CMenu/CMenu.h

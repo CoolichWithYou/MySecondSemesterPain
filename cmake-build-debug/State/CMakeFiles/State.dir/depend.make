@@ -7,6 +7,7 @@ State/CMakeFiles/State.dir/State.cpp.obj: ../State/State.h
 State/CMakeFiles/State.dir/Store.cpp.obj: ../MyConMenu/AbstractMenuItem/AbstractMenuItem.h
 State/CMakeFiles/State.dir/Store.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
 State/CMakeFiles/State.dir/Store.cpp.obj: ../App/app.h
+State/CMakeFiles/State.dir/Store.cpp.obj: ../Color/Color.h
 State/CMakeFiles/State.dir/Store.cpp.obj: ../Models/Human/Human.h
 State/CMakeFiles/State.dir/Store.cpp.obj: ../Models/Subject/Subject.h
 State/CMakeFiles/State.dir/Store.cpp.obj: ../MyConMenu/CMenu/CMenu.h

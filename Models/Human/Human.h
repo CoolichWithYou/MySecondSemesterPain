@@ -8,6 +8,7 @@
 #include <iostream>
 #include <string>
 #include <vector>
+#include "../Color/Color.h"
 //#include "../App/app.h"
 
 using namespace std;
@@ -64,10 +65,14 @@ public:
 
     void print() {
         if(m_post) {
+            setColor(Red,Black);
             cout << "Преподаватель:\t";
+            setColor(White,Black);
         }
         else{
+            setColor(Green,Black);
             cout << "Студент:\t";
+            setColor(White,Black);
         }
         cout << m_name
         << "\t\t"

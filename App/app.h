@@ -16,6 +16,7 @@
 #include "../State/State.h"
 #include "../Screens/Auth/Auth.h"
 #include "../Screens/InterfaceScreen.h"
+#include "../Color/Color.h"
 
 extern string login;
 

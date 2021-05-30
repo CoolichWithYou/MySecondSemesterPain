@@ -103,6 +103,7 @@ opi-dz.exe: Models/libModels.a
 opi-dz.exe: App/libApp.a
 opi-dz.exe: State/libState.a
 opi-dz.exe: Screens/libScreens.a
+opi-dz.exe: Color/libColor.a
 opi-dz.exe: Models/libModels.a
 opi-dz.exe: CMakeFiles/opi-dz.dir/linklibs.rsp
 opi-dz.exe: CMakeFiles/opi-dz.dir/objects1.rsp

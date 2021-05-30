@@ -181,6 +181,19 @@ App/fast:
 .PHONY : App/fast
 
 #=============================================================================
+# Target rules for targets named Color
+
+# Build rule for target.
+Color: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 Color
+.PHONY : Color
+
+# fast build rule for target.
+Color/fast:
+	$(MAKE) $(MAKESILENT) -f Color\CMakeFiles\Color.dir\build.make Color/CMakeFiles/Color.dir/build
+.PHONY : Color/fast
+
+#=============================================================================
 # Target rules for targets named State
 
 # Build rule for target.
@@ -242,6 +255,7 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... App
+	@echo ... Color
 	@echo ... Models
 	@echo ... MyConMenu
 	@echo ... Screens

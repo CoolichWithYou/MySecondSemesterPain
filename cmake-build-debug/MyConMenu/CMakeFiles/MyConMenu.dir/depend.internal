@@ -6,6 +6,7 @@ MyConMenu/CMakeFiles/MyConMenu.dir/AbstractMenuItem/AbstractMenuItem.cpp.obj
  C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/MyConMenu/AbstractMenuItem/AbstractMenuItem.h
 MyConMenu/CMakeFiles/MyConMenu.dir/CMenu/CMenu.cpp.obj
  ../App/app.h
+ ../Color/Color.h
  ../Models/Human/Human.h
  ../Models/Subject/Subject.h
  ../MyConMenu/AbstractMenuItem/AbstractMenuItem.h

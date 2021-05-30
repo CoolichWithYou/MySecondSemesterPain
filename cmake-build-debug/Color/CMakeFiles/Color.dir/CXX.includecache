@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color/Color.cpp
+Color.h
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color/Color.h
+
+C:/Users/Test-notebook/Desktop/GitHubDesctop/MySecondSemesterPain/Color/Color.h
+windows.h
+-
+

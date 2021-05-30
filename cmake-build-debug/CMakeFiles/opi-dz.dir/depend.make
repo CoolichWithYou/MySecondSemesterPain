@@ -4,6 +4,7 @@
 CMakeFiles/opi-dz.dir/main.cpp.obj: ../MyConMenu/AbstractMenuItem/AbstractMenuItem.h
 CMakeFiles/opi-dz.dir/main.cpp.obj: ../MyConMenu/CMenuItem/CMenuItem.h
 CMakeFiles/opi-dz.dir/main.cpp.obj: ../App/app.h
+CMakeFiles/opi-dz.dir/main.cpp.obj: ../Color/Color.h
 CMakeFiles/opi-dz.dir/main.cpp.obj: ../Models/Human/Human.h
 CMakeFiles/opi-dz.dir/main.cpp.obj: ../Models/Subject/Subject.h
 CMakeFiles/opi-dz.dir/main.cpp.obj: ../MyConMenu/CMenu/CMenu.h

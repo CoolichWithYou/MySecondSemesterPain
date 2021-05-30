@@ -14,6 +14,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../Models"
   "../MyConMenu"
   "../App"
+  "../Color"
   "../Screens"
   "../."
   "../State"
