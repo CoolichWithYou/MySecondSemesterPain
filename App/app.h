@@ -34,10 +34,15 @@ int checkEmpty(vector<T> a){
     return a.empty();
 }
 
+template<typename T>
+int sortAnything(vector<T> &a){
+    if (!checkEmpty(a)){
+        sort(a.begin(), a.end());
+    }
+}
+
 int nothing();
 
-bool sortAlgorithm();
-bool sortSubjectAlgorithm();
 //1)
 int sortSubjectByName();
 int editSubject();
@@ -55,11 +60,8 @@ int showTeachers();
 int showStudents();
 int userList();
 
-void all();
-extern void generateSubjectsInList();
 extern bool restoreInFile();
-extern void printSubjectLst();
-extern bool saveInFile();
-//runfunctions
+
+string unitlEnterCorrectly();
 
 #endif //TRY2_HUMAN_H

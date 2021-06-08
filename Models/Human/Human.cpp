@@ -13,8 +13,6 @@ bool Human::parseInBinFileHuman(iostream &f_out) {
     f_out.write((char *) &m_name[0], size_str);
 
 
-
-
     size_str = (streamsize) m_surname.size();
     f_out.write((char *) &size_str, sizeof size_str);
 

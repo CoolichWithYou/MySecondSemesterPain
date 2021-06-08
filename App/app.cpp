@@ -15,35 +15,32 @@ int nothing(){ //костыль
     return 0;
 }
 
-
-bool saveInFile() {
-    fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
-
-    for (auto &it : subjectList) {
-        it.parseInBinFile(io_file);
-    }
-
-    io_file.close();
-
-    return true;
-}
 int printSubjectList(){
-    if (!checkEmpty(subjectList)) {
-        for (int i = 0; i < subjectList.size(); ++i) {
-            setColor(Yellow,Black);
-            cout << i;
-            setColor(White,Black);
-            cout << " " << subjectList[i].getName() << endl;
-
+    try {
+        if (subjectList.empty()) {
+            throw "Предметы отсутствуют!\n\n";
         }
-        cout << "\n" << endl;
+        else{
+            for (int i = 0; i < subjectList.size(); ++i) {
+                setColor(Yellow, Black);
+                cout << i;
+                setColor(White, Black);
+                cout << " " << subjectList[i].getName() << endl;
+            }
+            cout << "\n" << endl;
+        }
+    }
+    catch(char * a){
+        cerr << "Error: " << a;
     }
     system("pause");
     SubjectList();
 }
+
 int addNewSubject(){
     string name;
     cout << "Введите название предмета:\n";
+
     cin >> name;
 
     Subject a(name);
@@ -64,30 +61,58 @@ int addNewSubject(){
     SubjectList();
     return 1;
 }
+
 int sortSubjectByName(){
-    if (!checkEmpty(subjectList)){
-        sort(subjectList.begin(), subjectList.end());
+    sortAnything(subjectList);
+
+    if (!checkEmpty(subjectList)) {
         for (int i = 0; i < subjectList.size(); ++i) {
             setColor(Yellow,Black);
             cout << i;
             setColor(White,Black);
             cout << " " << subjectList[i].getName() << endl;
         }
-
-        fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
-
-        for (auto &it : subjectList) {
-            it.parseInBinFile(io_file);
-        }
-
-        io_file.close();
-
         cout << "\n" << endl;
     }
+    fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
 
+    for (auto &it : subjectList) {
+        it.parseInBinFile(io_file);
+    }
+
+    io_file.close();
+
+    cout << "\n" << endl;
     system("pause");
     SubjectList();
 }
+
+int sortUserByName(){
+    sortAnything(humanList);
+
+    if(!checkEmpty(humanList)) {
+
+        vector<Human>::iterator it = humanList.begin();
+
+        int count{};
+
+        for (it; it < humanList.end(); it++) {
+
+            setColor(Yellow, Black);
+            cout << count << "\t";
+            setColor(White, Black);
+
+            Human::printList(it, humanList);
+            count++;
+        }
+        cout << "\n\n";
+    }
+
+    system("pause");
+    userList();
+    return 1;
+}
+
 int editSubject(){
     if(!checkEmpty(subjectList)){
         auto it = subjectList.begin();
@@ -100,23 +125,34 @@ int editSubject(){
         }
         cout << "\n\n";
 
-        int changeSubjectId{};
-        string newName, newSurname;
-        cout << "Введите id предмета, который хотите изменить:\n->>";
-        cin >> changeSubjectId;
+        try {
 
-        cout << "Введите новое название предмета:\n->>";
-        cin >> newName;
+            int changeSubjectId{};
+            string newName, newSurname;
+            cout << "Введите id предмета, который хотите изменить:\n->>";
+            cin >> changeSubjectId;
 
-        subjectList[changeSubjectId].setName(newName);
+            if((changeSubjectId >= subjectList.size()) || (changeSubjectId < 0))
+                throw "Вы ввели число, большее чем кол-во элементов или меньшее ноля!\n\n";
+            else {
 
-        fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
+                cout << "Введите новое название предмета:\n->>";
+                cin >> newName;
 
-        for (auto &it : subjectList) {
-            it.parseInBinFile(io_file);
+                subjectList[changeSubjectId].setName(newName);
+
+                fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
+
+                for (auto &it : subjectList) {
+                    it.parseInBinFile(io_file);
+                }
+
+                io_file.close();
+            }
         }
-
-        io_file.close();
+        catch(const char* a){
+            cerr << "Error: " << a;
+        }
 
         cout << "Информация о предмете успешно изменена!\n\n";
     }
@@ -136,17 +172,29 @@ int deleteSubject(){
 
         int deleteSubjectId{};
         cout << "Введите id предмета, который хотите удалить:\n->>";
-        cin >> deleteSubjectId;
 
-        subjectList.erase(subjectList.begin() + deleteSubjectId);
+        try {
 
-        fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
+            cin >> deleteSubjectId;
 
-        for (auto &it : subjectList) {
-            it.parseInBinFile(io_file);
+            if((deleteSubjectId >= subjectList.size()) || (deleteSubjectId < 0))
+                throw "Вы ввели число, большее чем кол-во элементов или меньшее ноля!\n\n";
+            else {
+
+                subjectList.erase(subjectList.begin() + deleteSubjectId);
+
+                fstream io_file(PATH_BIN_FILE, ios::binary | ios::out);
+
+                for (auto &it : subjectList) {
+                    it.parseInBinFile(io_file);
+                }
+
+                io_file.close();
+            }
         }
-
-        io_file.close();
+        catch(char * a){
+            cerr << "Error: " << a;
+        }
 
         cout << "предмет успешно удалён!\n\n";
     }
@@ -157,24 +205,40 @@ int deleteSubject(){
 }
 
 bool restoreInFile() {
-    fstream io_file(PATH_BIN_FILE, ios::binary | ios::in);
+    try {
+        fstream io_file(PATH_BIN_FILE, ios::binary | ios::in);
+        if(!io_file.is_open()){
+            throw "Файл не удалось открыть!\n\n";
+        }
 
-    Subject subject{};
-    while (subject.unparseFromBinFile(io_file)) {
-        subjectList.push_back(subject);
+        Subject subject{};
+        while (subject.unparseFromBinFile(io_file)) {
+            subjectList.push_back(subject);
+        }
+
+        io_file.close();
+    }
+    catch(const char* a){
+        cerr << "Error: " << a;
     }
 
-    io_file.close();
+    try {
+        fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::in);
 
-    fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::in);
+        if(!hu_file.is_open()){
+            throw "Файл не удалось открыть!\n\n";
+        }
 
-    Human human{};
-    while (human.unparseFromBinFileHuman(hu_file)) {
-        humanList.push_back(human);
+        Human human{};
+        while (human.unparseFromBinFileHuman(hu_file)) {
+            humanList.push_back(human);
+        }
+
+        hu_file.close();
     }
-
-    hu_file.close();
-
+    catch(const char* a){
+        cerr << "Error: " << a;
+    }
     return true;
 }
 
@@ -195,50 +259,23 @@ int addNewUser(){
 
     humanList[humanList.size()-1].setId(humanList.size()-1);
 
-    fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::out);
+    try {
+        fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::out);
 
-    for (auto &it : humanList) {
-        it.parseInBinFileHuman(hu_file);
+        if(!hu_file.is_open()){
+            throw "Файл не удалось открыть!\n\n";
+        }
+
+        for (auto &it : humanList) {
+            it.parseInBinFileHuman(hu_file);
+        }
+
+        hu_file.close();
+    }
+    catch(const char* a){
+        cerr << "Error: " << a;
     }
 
-    hu_file.close();
-
-
-//    fstream firstNames("FirstName.txt", std::ofstream::out | std::ofstream::trunc);
-//
-//    if (!firstNames) {
-//        cout << "файл не удалось открыть!\n";
-//    }
-//    else{
-//        for(int i = 0; i < humanList.size(); i++){
-//            firstNames << humanList[i].getName() << "\n";
-//        }
-//    }
-//    firstNames.close();
-//
-//    fstream secondNames("SecondName.txt", std::ofstream::out | std::ofstream::trunc);
-//
-//    if (!secondNames) {
-//        cout << "файл не удалось открыть!\n";
-//    }
-//    else{
-//        for(int i = 0; i < humanList.size(); i++){
-//            secondNames << humanList[i].getSurname() << "\n";
-//        }
-//    }
-//    secondNames.close();
-
-//    fstream accessLevel("AccessLvl.txt", std::ofstream::out | std::ofstream::trunc);
-//
-//    if (!accessLevel) {
-//        cout << "файл не удалось открыть!\n";
-//    }
-//    else{
-//        for(int i = 0; i < humanList.size(); i++){
-//            accessLevel << humanList[i].getPost() << "\n";
-//        }
-//    }
-//    accessLevel.close();
     system("pause");
     userList();
     return 1;
@@ -296,29 +333,23 @@ int editUser(){
 
         humanList[changeHumanId].setSurname(newSurname);
 
-        fstream firstNames("FirstName.txt", std::ofstream::out | std::ofstream::trunc);
 
-        if (!firstNames) {
-            cout << "файл не удалось открыть!\n";
-        }
-        else{
-            for(int i = 0; i < humanList.size(); i++){
-                firstNames << humanList[i].getName() << "\n";
+        try {
+            fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::out);
+
+            if(!hu_file.is_open()){
+                throw "Файл не удалось открыть!\n\n";
             }
-        }
-        firstNames.close();
 
-        fstream secondNames("SecondName.txt", std::ofstream::out | std::ofstream::trunc);
-
-        if (!secondNames) {
-            cout << "файл не удалось открыть!\n";
-        }
-        else{
-            for(int i = 0; i < humanList.size(); i++){
-                secondNames << humanList[i].getSurname() << "\n";
+            for (auto &it : humanList) {
+                it.parseInBinFileHuman(hu_file);
             }
+
+            hu_file.close();
         }
-        secondNames.close();
+        catch(const char* a){
+            cerr << "Error: " << a;
+        }
 
         cout << "Информация о человеке успешно изменена!\n\n";
     }
@@ -355,38 +386,25 @@ int deleteUser(){
 
         humanList.erase(humanList.begin() + deleteUserId + 1);
 
-        fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::out);
+        try {
+            fstream hu_file(HUMAN_BIN_FILE, ios::binary | ios::out);
 
-        for (auto &it : humanList) {
-            it.parseInBinFileHuman(hu_file);
+            if(!hu_file.is_open()){
+                throw "Файл не удалось открыть!\n\n";
+            }
+
+            for (auto &it : humanList) {
+                it.parseInBinFileHuman(hu_file);
+            }
+
+            hu_file.close();
         }
-
-        hu_file.close();
+        catch(const char* a){
+            cerr << "Error: " << a;
+        }
 
         cout << "пользователь успешно удалён!\n\n";
     }
-    system("pause");
-    userList();
-    return 1;
-}
-int sortUserByName(){
-    sort(humanList.begin(), humanList.end());
-
-    vector<Human>::iterator it = humanList.begin();
-
-    int count{};
-
-    for (it; it < humanList.end(); it++) {
-
-        setColor(Yellow,Black);
-        cout << count << "\t";
-        setColor(White,Black);
-        
-        Human::printList(it, humanList);
-        count++;
-    }
-    cout << "\n\n";
-
     system("pause");
     userList();
     return 1;

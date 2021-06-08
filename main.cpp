@@ -21,6 +21,9 @@ int main() {
     SetConsoleOutputCP(CP_UTF8);
 #endif
 
+    SetConsoleCP(0);
+    SetConsoleOutputCP(0);
+
         restoreInFile();
 
         connectDatabaseToVector();

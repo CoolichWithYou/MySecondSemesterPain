@@ -37,10 +37,20 @@ namespace CoolichWithYou {
     }
 
     int CMenu::runCommand() {
+        setColor(Green, Black);
         std::cout << login << endl;
+        setColor(White, Black);
         print();
         std::cout << "\n   Select >> ";
         std::cin >> m_select;
+        if((m_select < 0) || (m_select > m_count)){
+            while((m_select < 0) || (m_select > m_count)) {
+                std::cout << "некорректный ввод!\n\n >>";
+                cin.clear();
+                cin.ignore();
+                std::cin >> m_select;
+            }
+        }
         return m_items[m_select - 1].run();
     }
 
